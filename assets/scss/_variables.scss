@@ -1,0 +1,70 @@
+// Colors
+$blue:     hsl(215, 95%, 50%);
+$indigo:   hsl(265, 90%, 50%);
+$purple:   hsl(260, 50%, 50%);
+$pink:     hsl(330, 65%, 50%);
+$red:      hsl(355, 70%, 60%);
+$orange:   hsl(25, 100%, 55%);
+$yellow:   hsl(45, 100%, 55%);
+$green:    hsl(150, 70%, 45%);
+$teal:     hsl(170, 80%, 40%);
+$cyan:     hsl(190, 90%, 50%);
+$white:    hsl(360, 99%, 99%);
+$gray:     hsl(220, 10%, 40%);
+
+// Color scheme
+$primary:   $blue;
+$secondary: $gray;
+
+
+// Theme
+$colors: (
+	"blue":       $blue,
+	"indigo":     $indigo,
+	"purple":     $purple,
+	"pink":       $pink,
+	"red":        $red,
+	"orange":     $orange,
+	"yellow":     $yellow,
+	"green":      $green,
+	"teal":       $teal,
+	"cyan":       $cyan,
+	"white":      $white,
+	"gray":       $gray,
+);
+
+// Custom colors
+$custom-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Fonts
+$font-family-headings: "Montserrat", $font-family-sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+// Body
+$body-bg:    hsl(220, 35%, 95%);
+$body-color: hsl(220, 35%, 25%);
+
+// Card
+$card-bg: #FFF;
+$card-spacer-y: 1.5rem;
+$card-spacer-x: 1.5rem;
+$card-border-width: 0;
+$card-border-radius: 0.75rem;
+
+// Table
+$table-th-bg:          $secondary;
+$table-th-font-size:   75%;
+$table-th-font-family: $font-family-headings;
+$table-th-font-weight: bold !default;
+
+// Text
+$text-muted: hsl(220, 35%, 75%);
+
+// Custom
+$expand: lg;

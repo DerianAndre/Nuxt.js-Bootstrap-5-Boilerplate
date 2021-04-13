@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-bootstrap-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "bootstrap": "^5.0.0-beta3",
+    "bootstrap-icons": "^1.4.1",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1"
+  }
+}

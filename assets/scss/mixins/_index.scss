@@ -1,0 +1,20 @@
+// Mixins
+@mixin bootstrap-icon() {
+  display:                 inline-block !important;
+  font-family:             bootstrap-icons !important;
+  font-style:              normal !important;
+  font-weight:             normal !important;
+  font-variant:            normal !important;
+  text-transform:          none !important;
+  line-height:             1 !important;
+  vertical-align:          -.125em !important;
+  -webkit-font-smoothing:  antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+// Responsive Size
+@mixin rs($property, $min, $scale, $max, $important: false) {
+  #{$property}: calc(#{$min} + (#{number($max)} - #{number($min)}) * ((100vw - 300px) / (1600 - 300))) if-important($important);
+  #{$property}: min(max(#{$min}, #{$scale}), #{$max}) if-important($important);
+  #{$property}: clamp(#{$min}, #{$scale}, #{$max}) if-important($important);
+}

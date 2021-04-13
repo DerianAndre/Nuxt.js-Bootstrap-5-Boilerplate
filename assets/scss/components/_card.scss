@@ -1,0 +1,74 @@
+.card {
+  --color: #{$dark};
+  --color-hsl: #{color.hue($dark), color.saturation($dark), color.lightness($dark)};
+  --bg: #{$white};
+  --bg-muted: #{lighten($dark, 80%)};
+  --text: #{darken($dark, 15%)};
+  --text-high: #{darken($dark, 35%)};
+  --text-title: #{hsl(220, 35%, 65%)};
+  --text-muted: #{rgba(darken($dark, 30%), 0.5)};
+  background-color: var(--bg, white);
+
+  .card-title {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text-title);
+    margin-bottom: 1rem;
+  }
+  &.card-info {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #FFF;
+    box-shadow: inset 0 0 0 3px var(color);
+    height: 100%;
+    font-size: 50%;
+    @include media-breakpoint-up($expand) {
+      font-size: 100%;
+    }
+    .card-title {
+      color: hsl(220, 35%, 65%);
+    }
+    .info {
+      color: var(--text);
+      margin-right: auto;
+      list-style: 0.5;
+      span {
+        font-size: 1.25rem;
+        font-family: $font-family-headings;
+        font-weight: 500;
+        @include media-breakpoint-up($expand) {
+          @include rs('font-size', 1.25rem, 1.25vw, 1.75rem);
+        }
+      }
+    }
+    .icon {
+      background: hsla(var(--color-hsl), 0.15);
+      padding: 0.5rem;
+      border-radius: 0.75rem;
+      color: var(--color);
+      font-size: 1.5rem;
+      line-height: 0.5;
+      @include media-breakpoint-up($expand) {
+        @include rs('font-size', 1.5rem, 1.25vw, 2rem);
+      }
+    }
+  }
+  &.card-table {
+    .table {
+      margin: 0;
+      tr:last-child {
+        td {
+          border: 0;
+        }
+      }
+    }
+  }
+}
+
+.card-body {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  @include media-breakpoint-up($expand) {
+    padding: $card-spacer-y $card-spacer-x;
+  }
+}

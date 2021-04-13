@@ -1,0 +1,22 @@
+/*!
+ * Project
+ * Version: 1.0.0
+ */
+@use "sass:color";
+// Bootstrap
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+// Custom variables
+@import "variables";
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+// Custom framework
+@import 'functions';
+@import 'mixins';
+@import 'components';
+@import 'colors';
+@import 'pages';
+@import "custom";
+@import "layout";
