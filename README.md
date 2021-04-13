@@ -1,5 +1,5 @@
 # Nuxt + Bootstrap Boilerplate
-A simple ready to go NuxtJS + Bootstrap 5 boilerplate with some modifications.
+A simple ready to go NuxtJS + Bootstrap 5 + Bootstrap Icons boilerplate with some modifications.
 
 ## Build Setup
 
