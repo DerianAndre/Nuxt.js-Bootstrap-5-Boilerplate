@@ -1,6 +1,6 @@
 {
   "name": "nuxt-bootstrap-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -11,13 +11,13 @@
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "bootstrap": "^5.0.0-beta3",
-    "bootstrap-icons": "^1.4.1",
-    "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "bootstrap": "^5.0.2",
+    "bootstrap-icons": "^1.5.0",
+    "core-js": "^3.15.2",
+    "nuxt": "^2.15.7"
   },
   "devDependencies": {
-    "sass": "^1.32.8",
+    "sass": "^1.36.0",
     "sass-loader": "^10.1.1"
   }
 }

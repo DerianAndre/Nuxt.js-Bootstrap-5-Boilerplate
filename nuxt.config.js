@@ -25,7 +25,6 @@ export default {
     ],
     script: [
       { src: 'https://polyfill.io/v3/polyfill.min.js?features=es6', body: true },
-      //{ src: '/assets/js/bootstrap/bootstrap.bundle.min.js', body: true },
     ]
   },
 
@@ -36,7 +35,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { mode: 'client', src: '@/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', type: "text/javascript" }
+    { src: '~/plugins/bootstrap.client.js' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

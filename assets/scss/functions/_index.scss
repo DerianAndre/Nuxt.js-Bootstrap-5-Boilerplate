@@ -1,4 +1,5 @@
 // Functions
+@use "sass:math";
 
 // If Important
 // Adds !important when true. Useful for mixins
@@ -10,7 +11,7 @@
 // Remoev units
 @function number($number) {
   @if type-of($number) == 'number' and not unitless($number) {
-    @return $number / ($number * 0 + 1);
+    @return math.div($number, $number * 0 + 1);
   }
 
   @return $number;
