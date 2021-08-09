@@ -1,6 +1,12 @@
 # Nuxt + Bootstrap Boilerplate
 A simple ready to go NuxtJS + Bootstrap 5 + Bootstrap Icons boilerplate with some modifications.
 
+```
+   Nuxt:             2.15.7
+   Bootstrap:        5.1.0
+   Bootstrap Icons:  1.5.0
+```
+
 ## Build Setup
 
 ```bash
