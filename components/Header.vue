@@ -1,7 +1,18 @@
 <template>
-  <header class="header bg-light shadow py-3 mb-3">
+  <header 
+    class="header bg-light shadow py-3 mb-3"
+    :class="{
+      'navbar-top':    scrollPosition < scrollOffset,
+      'navbar-scroll': scrollPosition > scrollOffset,
+      'navbar-open':   navbarOpen
+    }"
+  >
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <button type="button" @click="navbarOpen = !navbarOpen" class="navbar-toggler collapsed d-none" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-1 text-light"></i>
+        </button>
+
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
           <i class="bi bi-bootstrap"></i>
         </a>
@@ -14,7 +25,7 @@
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-          <input type="search" class="form-control" placeholder="Search..." spellcheck="false" data-ms-editor="true">
+          <input type="search" class="form-control" placeholder="Search...">
         </form>
 
         <div class="dropdown text-end">
@@ -33,3 +44,26 @@
     </div>
   </header>
 </template>
+
+<script>
+  export default {
+    data() {
+      return {
+        navbarOpen:     false,
+        scrollOffset:   100,
+        scrollPosition: null,
+      }
+    },
+
+    methods: {
+      updateScroll() {
+        this.scrollPosition = window.scrollY
+      }
+    },
+    
+    mounted() {
+      this.updateScroll();
+      window.addEventListener('scroll', this.updateScroll);
+    }
+  }
+</script>
