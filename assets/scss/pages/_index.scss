@@ -1,11 +1,1 @@
 @import "login";
-
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.25s ease;
-}
-
-.page-enter,
-.page-leave-to {
-  opacity: 0;
-}

@@ -1,7 +1,3 @@
-/*!
- * Project
- * Version: 1.0.0
- */
 @use "sass:color";
 // Bootstrap
 @import "bootstrap/scss/functions";
@@ -13,10 +9,13 @@
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 // Custom framework
-@import 'functions';
-@import 'mixins';
-@import 'components';
-@import 'colors';
-@import 'pages';
+@import "functions";
+@import "mixins";
+@import "colors";
+@import "typography";
+@import "animations";
+@import "transitions";
+@import "layouts";
+@import "pages";
+@import "components";
 @import "custom";
-@import "layout";

@@ -1,0 +1,7 @@
+.dropdown {
+	.dropdown-menu {
+		&.show {
+			animation: fadeIn .35s ease;
+		}
+	}
+}

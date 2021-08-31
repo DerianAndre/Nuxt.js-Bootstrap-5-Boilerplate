@@ -1,14 +1,9 @@
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: $font-family-headings;
+[disabled],
+.disabled {
+  cursor: not-allowed !important;
 }
 
 .avatar {
   object-fit: cover;
   object-position: center;
-}
-
-[disabled],
-.disabled {
-  cursor:not-allowed !important;
 }

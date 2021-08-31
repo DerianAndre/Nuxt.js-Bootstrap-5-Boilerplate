@@ -1,0 +1,9 @@
+.layout {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: -webkit-fill-available;
+	min-height: 100vh;
+	overflow-x: auto;
+	overflow-y: hidden;
+}

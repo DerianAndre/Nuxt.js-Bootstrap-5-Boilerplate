@@ -28,11 +28,11 @@
           <input type="search" class="form-control" placeholder="Search...">
         </form>
 
-        <div class="dropdown text-end">
-          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="dropdown">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,10">
             <img src="https://github.com/derianandre.png" alt="Derian André" width="32" height="32" class="avatar rounded-circle">
           </a>
-          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+          <ul class="dropdown-menu dropdown-menu-md-end text-small" aria-labelledby="dropdownUser1">
             <li><a class="dropdown-item" href="#">New project...</a></li>
             <li><a class="dropdown-item" href="#">Settings</a></li>
             <li><a class="dropdown-item" href="#">Profile</a></li>
