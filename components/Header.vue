@@ -1,69 +1,59 @@
 <template>
-  <header 
-    class="header bg-light shadow py-3 mb-3"
-    :class="{
-      'navbar-top':    scrollPosition < scrollOffset,
-      'navbar-scroll': scrollPosition > scrollOffset,
-      'navbar-open':   navbarOpen
-    }"
-  >
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <button type="button" @click="navbarOpen = !navbarOpen" class="navbar-toggler collapsed d-none" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="bi bi-list fs-1 text-light"></i>
-        </button>
+	<header class="header bg-light shadow mb-3"
+		:class="{
+			'navbar-top':    scrollPosition < scrollOffset,
+			'navbar-scroll': scrollPosition > scrollOffset,
+			'navbar-open':   navbarOpen
+		}"
+	>
+		<nav class="navbar navbar-light navbar-expand-md">
+			<div class="container">
+				<NuxtLink to="/" class="navbar-brand">
+					<i class="bi bi-bootstrap fs-3"></i>
+				</NuxtLink>
 
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-          <i class="bi bi-bootstrap"></i>
-        </a>
+				<button @click="navbarOpen = !navbarOpen" type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="bi bi-list fs-1"></i>
+				</button>
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-          <input type="search" class="form-control" placeholder="Search...">
-        </form>
-
-        <div class="dropdown">
-          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,10">
-            <img src="https://github.com/derianandre.png" alt="Derian André" width="32" height="32" class="avatar rounded-circle">
-          </a>
-          <ul class="dropdown-menu dropdown-menu-md-end text-small" aria-labelledby="dropdownUser1">
-            <li><a class="dropdown-item" href="#">New project...</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
+				<div id="navbarCollapse" class="navbar-collapse collapse flex-grow-0 ms-auto">
+					<ul class="navbar-nav">
+						<li v-for="item in menu" :key="item.name">
+							<NuxtLink :to="item.to" class="nav-link">{{ item.name}}</NuxtLink>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        navbarOpen:     false,
-        scrollOffset:   100,
-        scrollPosition: null,
-      }
-    },
+	export default {
+		data() {
+			return {
+				navbarOpen:     false,
+				scrollOffset:   100,
+				scrollPosition: 0,
+				menu: [
+					{ name: 'Overview', to: '#' },
+					{ name: 'Components', to: '#' },
+					{ name: 'Plugins', to: '#' },
+					{ name: 'Examples', to: '#' },
+					{ name: 'Support', to: '#' }
+				]
+			}
+		},
 
-    methods: {
-      updateScroll() {
-        this.scrollPosition = window.scrollY
-      }
-    },
-    
-    mounted() {
-      this.updateScroll();
-      window.addEventListener('scroll', this.updateScroll);
-    }
-  }
+		methods: {
+			updateScroll() {
+			this.scrollPosition = window.scrollY
+			}
+		},
+		
+		mounted() {
+			this.updateScroll();
+			window.addEventListener('scroll', this.updateScroll);
+		}
+	}
 </script>
