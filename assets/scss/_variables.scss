@@ -42,27 +42,21 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // Fonts
-$font-family-headings: "Montserrat", $font-family-sans-serif;
-$font-family-base:     $font-family-sans-serif;
+$font-family-base:     "Roboto", $font-family-sans-serif;
+// Fonts: Headings
+$headings-font-family: "Montserrat", $font-family-sans-serif;
+$headings-font-weight: 700;
 
 // Body
 $body-bg: hsl(220, 35%, 95%);
 
 // Card
 $card-bg:            $white;
-$card-spacer-y:      1.5rem;
-$card-spacer-x:      1.5rem;
 $card-border-width:  0;
 $card-border-radius: 0.75rem;
 
 // Table
 $table-th-bg:          $secondary;
 $table-th-font-size:   75%;
-$table-th-font-family: $font-family-headings;
-$table-th-font-weight: bold !default;
-
-// Text
-$text-muted: hsl(220, 25%, 70%);
-
-// Custom
-$expand: lg;
+$table-th-font-family: $headings-font-family;
+$table-th-font-weight: 600;
