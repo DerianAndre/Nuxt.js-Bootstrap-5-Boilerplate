@@ -1,16 +1,17 @@
 // Colors
-$blue:   hsl(215, 95%, 50%);
-$indigo: hsl(265, 90%, 50%);
-$purple: hsl(260, 50%, 50%);
-$pink:   hsl(330, 65%, 50%);
-$red:    hsl(355, 70%, 60%);
-$orange: hsl(25, 100%, 55%);
-$yellow: hsl(45, 100%, 55%);
-$green:  hsl(150, 70%, 45%);
-$teal:   hsl(170, 80%, 40%);
-$cyan:   hsl(190, 90%, 50%);
-$white:  hsl(0, 100%, 100%);
-$gray:   hsl(220, 10%, 30%);
+$blue:      hsl(215, 95%, 50%);
+$indigo:    hsl(265, 90%, 50%);
+$purple:    hsl(260, 50%, 50%);
+$pink:      hsl(330, 65%, 50%);
+$red:       hsl(355, 70%, 60%);
+$orange:    hsl(25, 100%, 55%);
+$yellow:    hsl(45, 100%, 55%);
+$green:     hsl(150, 70%, 45%);
+$teal:      hsl(170, 80%, 40%);
+$cyan:      hsl(190, 90%, 50%);
+$white:     hsl(0, 100%, 100%);
+$gray:      hsl(220, 10%, 30%);
+$gray-dark: hsl(220, 10%, 10%);
 
 // Color scheme
 $primary:   $blue;
@@ -30,6 +31,7 @@ $colors: (
 	"cyan":   $cyan,
 	"white":  $white,
 	"gray":   $gray,
+	"gray-dark":   $gray-dark,
 );
 
 // Custom colors
@@ -39,7 +41,8 @@ $custom-colors: (
 );
 
 // Merge the maps
-$theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors:     map-merge($theme-colors, $custom-colors);
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
 
 // Fonts
 $font-family-base:     "Roboto", $font-family-sans-serif;
