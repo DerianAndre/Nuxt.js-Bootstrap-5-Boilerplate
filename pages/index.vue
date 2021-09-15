@@ -3,7 +3,7 @@
 		<div class="card shadow">
 			<div class="card-body">
 				<h1>Hello world!</h1>
-				<p class="lead">A ready to go boilerplate with some modifications to bootstrap.</p>
+				<p class="lead">A ready to go boilerplate with some modifications to bootstrap and ready to go recommended modules.</p>
 				<p>Lazy components with <a href="https://github.com/aFarkas/lazysizes">lazysizes</a> use <code>LazyImg</code> or <code>lazy-img</code> and <code>LazyEmbed</code> or <code>lazy-embed</code> for embeds (ratio-16x9 by default), check the components for props.</p>
 				<div class="row text-center">
 					<div class="col">
