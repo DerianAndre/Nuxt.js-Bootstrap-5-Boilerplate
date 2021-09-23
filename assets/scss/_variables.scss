@@ -41,6 +41,7 @@ $custom-colors: (
 );
 
 // Merge the maps
+$theme-colors:     map-merge($theme-colors, $colors);
 $theme-colors:     map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
 
