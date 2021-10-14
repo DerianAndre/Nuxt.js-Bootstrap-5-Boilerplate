@@ -4,8 +4,8 @@ A simple ready to go [Nuxt.js](https://github.com/nuxt/nuxt.js) + [Bootstrap 5](
 ## Versions
 ```
    Nuxt:             2.15.8
-   Bootstrap:        5.1.1
-   Bootstrap Icons:  1.5.0
+   Bootstrap:        5.1.3
+   Bootstrap Icons:  1.6.0
 ```
 
 ## Build Setup
