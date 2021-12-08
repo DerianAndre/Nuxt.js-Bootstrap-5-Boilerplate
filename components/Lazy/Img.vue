@@ -28,3 +28,13 @@
 		}
 	}
 </script>
+
+<style lang="scss">
+	.lazy {
+		opacity: 0;
+		transition: opacity 0.35s ease;
+		&.lazyloaded {
+			opacity: 1;
+		}
+	}
+</style>
