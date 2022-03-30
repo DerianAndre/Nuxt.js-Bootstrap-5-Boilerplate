@@ -47,6 +47,7 @@ export default {
 		'@nuxtjs/robots',
 		// https://sitemap.nuxtjs.org/
 		'@nuxtjs/sitemap',
+		"bootstrap-vue/nuxt"
 	],
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
 	buildModules: [
