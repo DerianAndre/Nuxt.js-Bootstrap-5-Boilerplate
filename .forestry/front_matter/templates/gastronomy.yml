@@ -17,11 +17,6 @@ fields:
     schema:
       format: markdown
   label: Beschreibung
-- name: menu
-  type: file
-  config:
-    maxSize: 64
-  label: Speisekarte
 - name: menus
   type: field_group_list
   fields:
