@@ -36,11 +36,9 @@
 				scrollOffset:   100,
 				scrollPosition: 0,
 				menu: [
-					{ name: 'Overview', to: '#' },
-					{ name: 'Components', to: '#' },
-					{ name: 'Plugins', to: '#' },
-					{ name: 'Examples', to: '#' },
-					{ name: 'Support', to: '#' }
+					{ name: 'Schlafen', to: '/schlafen' },
+					{ name: 'Feiern', to: '/feiern' },
+					{ name: 'Essen', to: '/essen' }
 				]
 			}
 		},
