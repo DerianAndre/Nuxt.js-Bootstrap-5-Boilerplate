@@ -17,12 +17,10 @@ fields:
     schema:
       format: markdown
   label: Beschreibung
-- name: card
-  type: list
+- name: menu
+  type: file
   config:
-    use_select: false
-    min: 
-    max: 
+    maxSize: 64
   label: Speisekarte
 pages:
 - content/gastronomie/gemeinschaftsverpflegung.md
