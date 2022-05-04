@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Unterkunft
+  label: Schlafen
 - type: directory
   path: content/ferienwohnungen
   label: Ferienwohnungen
