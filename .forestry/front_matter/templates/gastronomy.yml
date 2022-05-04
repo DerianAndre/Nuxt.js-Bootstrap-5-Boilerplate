@@ -36,13 +36,17 @@ fields:
     labelField: 
   label: Speisekarten
 - name: location
-  type: blocks
-  label: Location
-  template_types:
-  - location
+  type: select
+  default: []
   config:
-    min: 
-    max: 
+    required: false
+    options: []
+    source:
+      type: pages
+      section: orte
+      file: 
+      path: 
+  label: Location
 pages:
 - content/gastronomie/gemeinschaftsverpflegung.md
 - content/gastronomie/restaurant.md
