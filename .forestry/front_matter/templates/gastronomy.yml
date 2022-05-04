@@ -18,4 +18,5 @@ fields:
       format: markdown
   label: Beschreibung
 pages:
+- content/gastronomie/gemeinschaftsverpflegung.md
 - content/gastronomie/restaurant.md
