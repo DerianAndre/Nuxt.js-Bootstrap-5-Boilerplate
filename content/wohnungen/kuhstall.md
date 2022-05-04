@@ -1,5 +1,5 @@
 ---
-title: Kuhstall
+title: Ferienwohnung Kuhstall
 name: Kuhstall
 
 ---
