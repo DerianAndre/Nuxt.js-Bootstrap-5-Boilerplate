@@ -6,3 +6,5 @@ fields:
 - type: text
   name: name
   label: Name
+pages:
+- content/ferienwohnungen/kuhstall.md
