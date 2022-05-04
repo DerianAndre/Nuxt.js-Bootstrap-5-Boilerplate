@@ -42,7 +42,7 @@ sections:
   label: Mehr
 - type: directory
   path: content/locations
-  label: Orte
+  label: Locations
   create: all
   match: "**/*"
   templates:
