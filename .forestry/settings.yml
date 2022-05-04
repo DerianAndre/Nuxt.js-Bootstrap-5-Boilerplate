@@ -27,6 +27,8 @@ sections:
   label: Anlässe
   create: all
   match: "**/*"
+  templates:
+  - anlass
 - type: heading
   label: Essen
 - type: directory
