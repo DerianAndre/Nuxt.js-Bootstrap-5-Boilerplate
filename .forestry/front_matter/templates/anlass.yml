@@ -5,3 +5,5 @@ fields:
 - type: text
   name: title
   label: Titel
+pages:
+- content/anlass/familienfest.md
