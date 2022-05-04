@@ -7,4 +7,5 @@ fields:
   name: name
   label: Name
 pages:
+- content/ferienwohnungen/haupthaus.md
 - content/ferienwohnungen/kuhstall.md
