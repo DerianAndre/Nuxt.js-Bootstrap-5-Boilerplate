@@ -14,8 +14,15 @@ $gray:      hsl(220, 10%, 30%);
 $gray-dark: hsl(220, 10%, 10%);
 
 // Color scheme
-$primary:   $blue;
-$secondary: $gray;
+$primary:   #43543F;
+$white: #F7FAF5;
+$gray-100: #F7FAF5;
+$gray-200: #DCE6DC;
+$gray-300: #586E59;
+$gray-500: #43543F;
+$gray-700: #343B2F;
+$gray-900: #1F211C;
+$black: $gray-900;
 
 // Theme
 $colors: (
@@ -46,13 +53,12 @@ $theme-colors:     map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
 
 // Fonts
-$font-family-base:     "Roboto", $font-family-sans-serif;
+$font-family-base:     "Lato", $font-family-sans-serif;
 // Fonts: Headings
-$headings-font-family: "Montserrat", $font-family-sans-serif;
-$headings-font-weight: 700;
+$headings-font-family: "Playfair Display", $font-family-sans-serif;
 
 // Body
-$body-bg: hsl(220, 35%, 95%);
+$body-bg: $gray-100;
 
 // Card
 $card-bg:            $white;

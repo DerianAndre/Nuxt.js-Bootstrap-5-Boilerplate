@@ -7,3 +7,12 @@
   object-fit: cover;
   object-position: center;
 }
+
+body{
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.mini-container{
+  max-width: 600px;
+}
