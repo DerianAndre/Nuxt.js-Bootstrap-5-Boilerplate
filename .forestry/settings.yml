@@ -4,14 +4,18 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: content/gastronomie
-  label: Gastronomie
-  create: all
-  match: "**/*"
+- type: heading
+  label: Unterkunft
 - type: directory
   path: content/ferienwohnungen
   label: Ferienwohnungen
+  create: all
+  match: "**/*"
+- type: heading
+  label: Essen
+- type: directory
+  path: content/gastronomie
+  label: Gastronomie
   create: all
   match: "**/*"
 upload_dir: uploads
