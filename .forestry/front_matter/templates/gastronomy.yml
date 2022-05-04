@@ -1,7 +1,7 @@
 ---
 label: Gastronomie
 hide_body: true
-display_field: name
+display_field: title
 fields:
 - name: title
   type: text

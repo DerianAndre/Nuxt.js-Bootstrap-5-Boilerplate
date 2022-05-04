@@ -1,5 +1,5 @@
 ---
-name: À la Carte
+title: À la Carte
 description: |-
   SO SCHMECKT DER SÜDEN
   Wußten Sie schon: Alle Gerichte auf unserer Karte auch zum Mitnehmen!

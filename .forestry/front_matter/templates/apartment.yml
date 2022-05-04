@@ -1,7 +1,7 @@
 ---
 label: Ferienwohnung
 hide_body: false
-display_field: name
+display_field: title
 fields:
 - type: text
   name: title
