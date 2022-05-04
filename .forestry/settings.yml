@@ -38,6 +38,13 @@ sections:
   match: "**/*"
   templates:
   - gastronomy
+- type: heading
+  label: Andere
+- type: directory
+  path: content/locations
+  label: Orte
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
