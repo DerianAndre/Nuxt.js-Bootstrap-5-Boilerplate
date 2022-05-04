@@ -24,7 +24,7 @@ sections:
   label: Feiern
 - type: directory
   path: content/anlass
-  label: Anlass
+  label: Anlässe
   create: all
   match: "**/*"
 - type: heading
