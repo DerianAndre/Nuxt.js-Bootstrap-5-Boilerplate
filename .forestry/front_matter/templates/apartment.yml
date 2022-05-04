@@ -1,11 +1,8 @@
 ---
-label: Ferienwohnung
+label: Wohnung
 hide_body: false
 display_field: title
 fields:
 - type: text
   name: title
   label: Titel
-pages:
-- content/ferienwohnungen/haupthaus.md
-- content/ferienwohnungen/kuhstall.md
