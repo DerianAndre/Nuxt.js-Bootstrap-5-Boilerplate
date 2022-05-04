@@ -35,6 +35,14 @@ fields:
     max: 
     labelField: 
   label: Speisekarten
+- name: location
+  type: blocks
+  label: Location
+  template_types:
+  - location
+  config:
+    min: 
+    max: 
 pages:
 - content/gastronomie/gemeinschaftsverpflegung.md
 - content/gastronomie/restaurant.md
