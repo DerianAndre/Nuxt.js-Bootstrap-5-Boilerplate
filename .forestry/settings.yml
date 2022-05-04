@@ -7,8 +7,8 @@ sections:
 - type: heading
   label: Schlafen
 - type: directory
-  path: content/ferienwohnungen
-  label: Ferienwohnungen
+  path: content/wohnungen
+  label: Wohnungen
   create: all
   match: "**/*"
   templates:
