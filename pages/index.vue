@@ -1,6 +1,13 @@
 <template>
 	<main>
 		<Hero title="Das ist die Überschrift" cover="https://picsum.photos/1600/1200"></Hero>
+		<section>
+			<b-container>
+				<ul>
+					<li v-for="post in articles" :key="post.title"><nuxt-link :to="post.path">{{ post.title }}</nuxt-link></li>
+				</ul>
+			</b-container>
+		</section>
 		<section class="py-5">
 			<b-container class="mini-container">
 				<h2 class="subtitle">Subtitle</h2>
@@ -31,7 +38,20 @@
 
 <script>
 	export default {
-		
+		async asyncData({ $content, params }) {
+			try {
+				const articles = await $content({ deep: true })
+				.only(['title', 'description', 'image', 'path'])
+				.sortBy('createdAt', 'desc')
+				.fetch()
+				return { articles }
+			} catch (err) {
+				error({
+				statusCode: 404,
+				message: 'Page could not be found',
+				})
+			}
+		},
 	}
 </script>
 
