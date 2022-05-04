@@ -10,7 +10,8 @@
 		"dev": "nuxt",
 		"build": "nuxt build",
 		"start": "nuxt start",
-		"generate": "nuxt generate"
+		"generate": "nuxt generate",
+		"lint": "npx prettier --write ."
 	},
 	"dependencies": {
 		"@nuxt/content": "^1.14.0",
@@ -25,6 +26,7 @@
 		"nuxt": "^2.15.8"
 	},
 	"devDependencies": {
+		"prettier": "1.19.1",
 		"sass": "^1.39.2",
 		"sass-loader": "^10.2.0"
 	}

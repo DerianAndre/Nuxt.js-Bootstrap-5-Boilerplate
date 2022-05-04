@@ -1,0 +1,6 @@
+.nuxt/
+build/
+content/
+dist/
+node_modules/
+static/sw.json
