@@ -4,8 +4,8 @@ hide_body: false
 display_field: name
 fields:
 - type: text
-  name: name
-  label: Name
+  name: title
+  label: Titel
 pages:
 - content/ferienwohnungen/haupthaus.md
 - content/ferienwohnungen/kuhstall.md
