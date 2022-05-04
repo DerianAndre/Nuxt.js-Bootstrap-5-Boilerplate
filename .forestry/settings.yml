@@ -22,6 +22,11 @@ sections:
   - room
 - type: heading
   label: Feiern
+- type: directory
+  path: content/anlass
+  label: Reason
+  create: all
+  match: "**/*"
 - type: heading
   label: Essen
 - type: directory
