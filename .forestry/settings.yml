@@ -24,7 +24,7 @@ sections:
   label: Feiern
 - type: directory
   path: content/anlass
-  label: Anlässe
+  label: Anlass
   create: all
   match: "**/*"
   templates:
