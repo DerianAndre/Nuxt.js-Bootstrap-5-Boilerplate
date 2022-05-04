@@ -1,6 +1,7 @@
 ---
-label: Apartment
+label: Ferienwohnung
 hide_body: false
+display_field: name
 fields:
 - type: text
   name: name
