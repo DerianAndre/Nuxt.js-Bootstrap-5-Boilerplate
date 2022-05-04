@@ -22,6 +22,24 @@ fields:
   config:
     maxSize: 64
   label: Speisekarte
+- name: menus
+  type: field_group_list
+  fields:
+  - name: date
+    type: text
+    config:
+      required: false
+    label: Datum
+  - name: menu
+    type: file
+    config:
+      maxSize: 64
+    label: Speisekarte
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Speisekarten
 pages:
 - content/gastronomie/gemeinschaftsverpflegung.md
 - content/gastronomie/restaurant.md
