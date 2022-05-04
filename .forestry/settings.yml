@@ -45,6 +45,8 @@ sections:
   label: Orte
   create: all
   match: "**/*"
+  templates:
+  - location
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
