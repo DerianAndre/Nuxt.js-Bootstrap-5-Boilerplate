@@ -18,6 +18,8 @@ sections:
   label: Zimmer
   create: all
   match: "**/*"
+  templates:
+  - room
 - type: heading
   label: Essen
 - type: directory
