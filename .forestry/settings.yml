@@ -39,7 +39,7 @@ sections:
   templates:
   - gastronomy
 - type: heading
-  label: Andere
+  label: Mehr
 - type: directory
   path: content/locations
   label: Orte
