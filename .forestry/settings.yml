@@ -11,6 +11,8 @@ sections:
   label: Ferienwohnungen
   create: all
   match: "**/*"
+  templates:
+  - apartment
 - type: heading
   label: Essen
 - type: directory
@@ -18,6 +20,8 @@ sections:
   label: Gastronomie
   create: all
   match: "**/*"
+  templates:
+  - gastronomy
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
