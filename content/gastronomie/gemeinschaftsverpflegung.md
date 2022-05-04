@@ -11,5 +11,8 @@ description: |-
   * umweltverträglich verpackt
   * fair gehandelt
   * Frischgemüse und Salate sowie Obst aus zertifiziertem BIO-Anbau (laut aktuellem Speisenplan)
+card:
+- Test
+menu: "/uploads/speisenplan_kw_20-_21-05-2021.pdf"
 
 ---
