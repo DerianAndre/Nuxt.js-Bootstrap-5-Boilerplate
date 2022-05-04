@@ -21,6 +21,8 @@ sections:
   templates:
   - room
 - type: heading
+  label: Feiern
+- type: heading
   label: Essen
 - type: directory
   path: content/gastronomie
