@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/essen
+  label: Essen
+  create: all
+  match: "**/*"
+- type: directory
   path: content/ferienwohnungen
   label: Ferienwohnungen
   create: all
