@@ -8,3 +8,5 @@ fields:
   config:
     required: false
   label: Titel
+pages:
+- content/locations/gasthaus-zum-lamm.md
