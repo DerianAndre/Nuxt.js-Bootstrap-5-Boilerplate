@@ -1,2 +1,2 @@
-import lazySizes from 'lazysizes'
+import lazySizes from "lazysizes";
 export default lazySizes;

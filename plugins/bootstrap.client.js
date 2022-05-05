@@ -1,1 +1,1 @@
-import bootsrtap from "bootstrap"
+import bootsrtap from "bootstrap";

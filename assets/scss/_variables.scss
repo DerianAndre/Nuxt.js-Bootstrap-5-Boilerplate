@@ -1,59 +1,59 @@
 // Colors
-$blue:      hsl(215, 95%, 50%);
-$indigo:    hsl(265, 90%, 50%);
-$purple:    hsl(260, 50%, 50%);
-$pink:      hsl(330, 65%, 50%);
-$red:       hsl(355, 70%, 60%);
-$orange:    hsl(25, 100%, 55%);
-$yellow:    hsl(45, 100%, 55%);
-$green:     hsl(150, 70%, 45%);
-$teal:      hsl(170, 80%, 40%);
-$cyan:      hsl(190, 90%, 50%);
-$white:     hsl(0, 100%, 100%);
-$gray:      hsl(220, 10%, 30%);
+$blue: hsl(215, 95%, 50%);
+$indigo: hsl(265, 90%, 50%);
+$purple: hsl(260, 50%, 50%);
+$pink: hsl(330, 65%, 50%);
+$red: hsl(355, 70%, 60%);
+$orange: hsl(25, 100%, 55%);
+$yellow: hsl(45, 100%, 55%);
+$green: hsl(150, 70%, 45%);
+$teal: hsl(170, 80%, 40%);
+$cyan: hsl(190, 90%, 50%);
+$white: hsl(0, 100%, 100%);
+$gray: hsl(220, 10%, 30%);
 $gray-dark: hsl(220, 10%, 10%);
 
 // Color scheme
-$primary:   #43543F;
-$white: #F7FAF5;
-$gray-100: #F7FAF5;
-$gray-200: #DCE6DC;
-$gray-300: #586E59;
-$gray-500: #43543F;
-$gray-700: #343B2F;
-$gray-900: #1F211C;
+$primary: #43543f;
+$white: #f7faf5;
+$gray-100: #f7faf5;
+$gray-200: #dce6dc;
+$gray-300: #586e59;
+$gray-500: #43543f;
+$gray-700: #343b2f;
+$gray-900: #1f211c;
 $black: $gray-900;
 
 // Theme
 $colors: (
-	"blue":   $blue,
-	"indigo": $indigo,
-	"purple": $purple,
-	"pink":   $pink,
-	"red":    $red,
-	"orange": $orange,
-	"yellow": $yellow,
-	"green":  $green,
-	"teal":   $teal,
-	"cyan":   $cyan,
-	"white":  $white,
-	"gray":   $gray,
-	"gray-dark":   $gray-dark,
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "white": $white,
+  "gray": $gray,
+  "gray-dark": $gray-dark,
 );
 
 // Custom colors
 $custom-colors: (
-	"primary":   $primary,
-	"secondary": $secondary,
+  "primary": $primary,
+  "secondary": $secondary,
 );
 
 // Merge the maps
-$theme-colors:     map-merge($theme-colors, $colors);
-$theme-colors:     map-merge($theme-colors, $custom-colors);
+$theme-colors: map-merge($theme-colors, $colors);
+$theme-colors: map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
 
 // Fonts
-$font-family-base:     "Lato", $font-family-sans-serif;
+$font-family-base: "Lato", $font-family-sans-serif;
 // Fonts: Headings
 $headings-font-family: "Playfair Display", $font-family-sans-serif;
 
@@ -61,12 +61,12 @@ $headings-font-family: "Playfair Display", $font-family-sans-serif;
 $body-bg: $gray-100;
 
 // Card
-$card-bg:            $white;
-$card-border-width:  0;
+$card-bg: $white;
+$card-border-width: 0;
 $card-border-radius: 0.75rem;
 
 // Table
-$table-th-bg:          $secondary;
-$table-th-font-size:   75%;
+$table-th-bg: $secondary;
+$table-th-font-size: 75%;
 $table-th-font-family: $headings-font-family;
 $table-th-font-weight: 600;

@@ -1,33 +1,33 @@
 {
-	"name": "nuxtjs-bootstrap-5-boilerplate",
-	"version": "1.0.0",
-	"author": {
-		"name": "Derian Castillo",
-		"email": "hola@derianandre.com",
-		"url": "https://derianandre.com"
-	},
-	"scripts": {
-		"dev": "nuxt",
-		"build": "nuxt build",
-		"start": "nuxt start",
-		"generate": "nuxt generate",
-		"lint": "npx prettier --write ."
-	},
-	"dependencies": {
-		"@nuxt/content": "^1.14.0",
-		"@nuxtjs/pwa": "^3.3.5",
-		"@nuxtjs/robots": "^2.5.0",
-		"@nuxtjs/sitemap": "^2.4.0",
-		"bootstrap": "^5.1.3",
-		"bootstrap-icons": "^1.7.2",
-		"bootstrap-vue": "^2.21.2",
-		"core-js": "^3.15.2",
-		"lazysizes": "^5.3.2",
-		"nuxt": "^2.15.8"
-	},
-	"devDependencies": {
-		"prettier": "1.19.1",
-		"sass": "^1.39.2",
-		"sass-loader": "^10.2.0"
-	}
+  "name": "nuxtjs-bootstrap-5-boilerplate",
+  "version": "1.0.0",
+  "author": {
+    "name": "Derian Castillo",
+    "email": "hola@derianandre.com",
+    "url": "https://derianandre.com"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "npx prettier --write ."
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.15.2",
+    "lazysizes": "^5.3.2",
+    "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "sass": "^1.39.2",
+    "sass-loader": "^10.2.0"
+  }
 }

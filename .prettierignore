@@ -4,3 +4,4 @@ content/
 dist/
 node_modules/
 static/sw.json
+.forestry/
