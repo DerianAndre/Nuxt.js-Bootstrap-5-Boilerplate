@@ -6,6 +6,16 @@ fields:
 - type: text
   name: title
   label: Titel
+- name: persons
+  type: number
+  label: Personen
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: description
   type: textarea
   default: ''
