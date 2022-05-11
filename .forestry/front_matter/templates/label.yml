@@ -7,3 +7,17 @@ fields:
   config:
     required: false
   label: Titel
+- name: label
+  type: file
+  config:
+    maxSize: 64
+  label: Label
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Beschreibung
