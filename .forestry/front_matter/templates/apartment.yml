@@ -24,3 +24,15 @@ fields:
   config:
     required: false
   label: Buchungslink
+- name: location
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: orte
+      file: 
+      path: 
+  label: Location
