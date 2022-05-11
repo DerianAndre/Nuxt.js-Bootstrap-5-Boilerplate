@@ -18,3 +18,8 @@ fields:
   type: image_gallery
   config: {}
   label: Bilder
+- name: booking
+  type: text
+  config:
+    required: false
+  label: Buchungslink
