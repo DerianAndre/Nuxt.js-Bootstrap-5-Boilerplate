@@ -6,3 +6,21 @@ fields:
 - type: text
   name: title
   label: Titel
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Beschreibung
+- name: images
+  type: image_gallery
+  config: {}
+  label: Bilder
+- name: booking
+  type: text
+  config:
+    required: false
+  label: Buchungslink
