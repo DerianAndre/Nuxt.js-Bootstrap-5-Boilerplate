@@ -8,3 +8,13 @@ fields:
   config:
     required: false
   label: Titel
+- name: price
+  type: text
+  config:
+    required: false
+  label: Preis
+  default: ab 49,00 €/Nacht
+- name: images
+  type: image_gallery
+  config: {}
+  label: Bilder
