@@ -9,5 +9,6 @@ description: |-
   Hierfür wurden wir aktuell mit 3 von 3 Baden-Württembergischen-Schmeck den Süden Löwen ausgezeichnet.
 menus: []
 location: content/locations/gasthaus-zum-lamm.md
+headline: Verwöhnen Sie ihren Gaumen mit Köstlichkeiten von der schwäbischen Alb
 
 ---
