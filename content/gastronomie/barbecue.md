@@ -1,7 +1,7 @@
 ---
 location: []
 title: Barbecue
-headline: 'Wir lassen es brutzeln '
+headline: 'Wir lassen es mal so richtig brutzeln '
 description: "Eine unserer besonderen Spezialiäten und ein unvergesslicher kulinarischer
   Event ist unser Barbecue. Damit geben Sie Ihrer Feier eine ganz besondere Note.
   \ \nGegrillt wird auf einem Smoker, einem speziellen Grill, bei dem das Grillgut
