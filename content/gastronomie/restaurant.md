@@ -7,8 +7,11 @@ description: |-
 
   Über 90% unserer Zutaten und Getränke beziehen wir aus unserer Region bzw. aus Baden-Württemberg.
   Hierfür wurden wir aktuell mit 3 von 3 Baden-Württembergischen-Schmeck den Süden Löwen ausgezeichnet.
-menus: []
+menus:
+- menu: "/images/speisekarte_29_oktober_2021_sds-komprimiert.pdf"
+  label: Unsere Speisekarte
 location: content/locations/gasthaus-zum-lamm.md
 headline: Verwöhnen Sie ihren Gaumen mit Köstlichkeiten von der schwäbischen Alb
+image: ''
 
 ---
