@@ -14,6 +14,11 @@ fields:
     required: false
   label: Headline
   description: Emotionale Überschrift
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
 - name: description
   type: textarea
   default: ''
