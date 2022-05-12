@@ -13,5 +13,6 @@ description: |-
 
   Die genaue Auswahl ist abhängig vond er Jahreszeit und der Verfügbarkeit!
 menus: []
+image: "/images/aneta-voborilova-e0eodfsj2cw-unsplash.jpg"
 
 ---
