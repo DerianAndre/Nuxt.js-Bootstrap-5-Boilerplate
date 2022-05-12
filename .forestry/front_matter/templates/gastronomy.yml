@@ -31,11 +31,11 @@ fields:
 - name: menus
   type: field_group_list
   fields:
-  - name: date
+  - name: label
     type: text
     config:
       required: false
-    label: Datum
+    label: Label
   - name: menu
     type: file
     config:

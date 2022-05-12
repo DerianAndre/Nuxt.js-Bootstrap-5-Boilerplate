@@ -14,10 +14,9 @@ description: |-
 card:
 - Test
 menu: "/uploads/speisenplan_kw_20-_21-05-2021.pdf"
-menus:
-- date: Speisenplan KW 19 bis 14.05.2022
-  menu: "/uploads/speisenplan_kw_19-_15-05-2021.pdf"
-- date: Speisenplan KW 20 bis 21.05.2022
-  menu: "/uploads/speisenplan_kw_20-_21-05-2021.pdf"
+menus: []
+headline: ''
+image: ''
+location: ''
 
 ---
