@@ -14,7 +14,11 @@ description: |-
 card:
 - Test
 menu: "/uploads/speisenplan_kw_20-_21-05-2021.pdf"
-menus: []
+menus:
+- label: Kalenderwoche 20
+  menu: "/images/speisenplan_kw_20-_21-05-2021.pdf"
+- label: Kalenderwoche 19
+  menu: "/images/speisenplan_kw_19-_15-05-2021.pdf"
 headline: ''
 image: ''
 location: ''
