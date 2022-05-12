@@ -15,6 +15,6 @@ description: "Eine unserer besonderen Spezialiäten und ein unvergesslicher kuli
   Eroberung Amerikas in der ganzen Karibik und die Festlandsküste entlang bis nach
   Brasilien."
 menus: []
-image: "/uploads/victoria-shes-uc0hzduitwy-unsplash.jpg"
+image: static/images/victoria-shes-uc0hzduitwy-unsplash.jpg
 
 ---
