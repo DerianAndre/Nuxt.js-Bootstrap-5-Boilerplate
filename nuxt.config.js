@@ -59,6 +59,7 @@ export default {
     // https://sitemap.nuxtjs.org/
     "@nuxtjs/sitemap",
     "bootstrap-vue/nuxt",
+    "@nuxtjs/markdownit",
   ],
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [],
@@ -67,6 +68,9 @@ export default {
     manifest: {
       lang: "en",
     },
+  },
+  markdownit: {
+    runtime: true, // Support `$md()`
   },
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
