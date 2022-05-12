@@ -54,5 +54,6 @@ fields:
       path: 
   label: Location
 pages:
+- content/gastronomie/barbecue.md
 - content/gastronomie/gemeinschaftsverpflegung.md
 - content/gastronomie/restaurant.md
