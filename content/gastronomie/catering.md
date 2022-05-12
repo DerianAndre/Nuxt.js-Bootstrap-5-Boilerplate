@@ -1,7 +1,7 @@
 ---
 location: []
 title: Catering
-headline: Unser Speisen da wo Sie feiern
+headline: Ihr Partyservice und Caterer mit allem drum und dran
 description: |-
   Wir betrachten uns nicht als Auftragnehmer oder Lieferant, sondern als Ihr verlässlicher Partner in allen Fragen Ihrer Veranstaltung. Benötigen Sie Bedienungspersonal, Geschirr, Getränke, Ausschankanlage, Tonanlage usw. sind wir bei der Beschaffung gerne behilflich. Sie möchten es mal so richtig krachen lassen? Gerne organisieren wir Ihnen ein Feuerwerk nach Ihren Vorstellungen. Mit uns bleiben keine Wünsche offen.
 
