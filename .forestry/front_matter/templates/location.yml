@@ -20,4 +20,5 @@ fields:
   label: Ferienwohnungen
 pages:
 - content/locations/gasthaus-zum-lamm.md
+- content/locations/kuhstall.md
 - content/locations/lammwirt-stadel.md
