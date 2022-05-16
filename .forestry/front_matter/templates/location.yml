@@ -18,6 +18,10 @@ fields:
       type: pages
       section: wohnungen
   label: Ferienwohnungen
+- name: images
+  type: image_gallery
+  config: {}
+  label: Bilder
 pages:
 - content/locations/am-pfarrgarten-23.md
 - content/locations/gasthaus-zum-lamm.md
