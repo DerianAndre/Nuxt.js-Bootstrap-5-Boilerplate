@@ -1,9 +1,5 @@
 <template>
   <main>
-    <Hero
-      title="Das ist die Überschrift"
-      cover="https://picsum.photos/1600/1200"
-    ></Hero>
     <section>
       <b-container>
         <ul>
