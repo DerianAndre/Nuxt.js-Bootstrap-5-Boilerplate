@@ -8,6 +8,16 @@ fields:
   config:
     required: false
   label: Titel
+- name: apartments
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: wohnungen
+  label: Ferienwohnungen
 pages:
 - content/locations/gasthaus-zum-lamm.md
 - content/locations/lammwirt-stadel.md
