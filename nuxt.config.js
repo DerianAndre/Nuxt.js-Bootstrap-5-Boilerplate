@@ -7,6 +7,9 @@ export default {
   server: {
     host: "0.0.0.0",
   },
+  sitemap: {
+    hostname: "https://gasthaus-lamm.vercel.app",
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "Bootstrap 5",
