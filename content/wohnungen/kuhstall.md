@@ -10,5 +10,11 @@ description: "Im umgebauten ehemaligen Kuhstall können Sie in modern und komfor
   Wohnraum mit integrierter, voll ausgestatteter Küche, Essplatz, 2 Schlafräumen mit
   Doppel- und Einzelbetten bis hin zum modernen Duschraum ist dafür gesorgt, dass
   Sie Ihre Ferien erholsam verbringen. Fernseher und Radio/CD-Player sind selbverständlich."
+images:
+- "/images/wohnung2-1.jpeg"
+- "/images/wohnung2-3.jpeg"
+- "/images/wohnung2-2.jpeg"
+- "/images/wohnung2-4.gif"
+- "/images/wohnung2und3-1.jpeg"
 
 ---
