@@ -181,49 +181,22 @@
           </b-col>
         </b-row>
         <b-row class="my-5">
-          <b-col>
+          <b-col v-for="room in rooms" :key="room">
             <b-card
-              title="Einzelzimmer"
-              sub-title="ab 49,00 €/Nacht"
+              :title="room.title"
+              :sub-title="room.price"
               bg-variant="light"
               class="shadow"
             >
-              <b-card-text
-                >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua.
+              <b-card-text v-if="room.description"
+                >{{ room.description }}
               </b-card-text>
-              <b-button href="#!" variant="primary">Buchen</b-button>
-            </b-card>
-          </b-col>
-          <b-col>
-            <b-card
-              title="Doppelzimmer"
-              sub-title="ab 78,00 €/Nacht"
-              bg-variant="light"
-              class="shadow"
-            >
-              <b-card-text
-                >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua.
-              </b-card-text>
-              <b-button href="#!" variant="primary">Buchen</b-button>
-            </b-card>
-          </b-col>
-          <b-col>
-            <b-card
-              title="Familienzimmer"
-              sub-title="auf Anfrage"
-              bg-variant="light"
-              class="shadow"
-            >
-              <b-card-text
-                >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua.
-              </b-card-text>
-              <b-button href="#!" variant="primary">Buchen</b-button>
+              <b-button
+                v-if="room.booking"
+                :href="room.booking"
+                variant="primary"
+                >Buchen</b-button
+              >
             </b-card>
           </b-col>
         </b-row>
@@ -419,7 +392,8 @@ export default {
       const apartments = await $content("wohnungen")
         .sortBy("createdAt", "desc")
         .fetch();
-      return { apartments, locations };
+      const rooms = await $content("zimmer").fetch();
+      return { apartments, locations, rooms };
     } catch (err) {
       error({
         statusCode: 404,
