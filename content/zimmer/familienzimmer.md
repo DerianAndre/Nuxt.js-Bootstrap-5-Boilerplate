@@ -4,6 +4,6 @@ title: Familienzimmer
 icon: ''
 description: ''
 images: []
-booking: ''
+booking: mailto:xx@xx.de
 
 ---
