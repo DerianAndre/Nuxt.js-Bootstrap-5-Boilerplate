@@ -233,11 +233,11 @@
           no-nav-style
           lazy
           justified
-          active-nav-item-class="border-primary"
+          active-nav-item-class="border-primary opacity-100"
         >
           <b-tab
             title-item-class="me-2 mb-2 bg-light"
-            title-link-class="p-0 h-100 border border-5 rounded-xl overflow-hidden text-decoration-none"
+            title-link-class="p-0 h-100 border border-5 rounded-xl overflow-hidden text-decoration-none opacity-50"
             v-for="location in locations"
             :key="location"
           >
