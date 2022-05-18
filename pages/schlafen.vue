@@ -271,6 +271,18 @@
                 </b-card-text>
               </b-card>
             </template>
+            <b-row>
+              <b-col md="5">
+                <h3 v-if="location.title">
+                  Unsere Ferienwohnungen - {{ location.title }}
+                </h3>
+                <div
+                  v-if="location.description"
+                  v-html="$md.render(location.description)"
+                ></div>
+              </b-col>
+            </b-row>
+
             <ul class="list-group list-group-flush">
               <li
                 v-for="apartmentPath in location.apartments"
