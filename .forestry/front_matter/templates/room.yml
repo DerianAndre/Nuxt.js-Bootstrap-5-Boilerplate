@@ -38,4 +38,5 @@ fields:
     required: false
   label: Buchungslink
 pages:
+- content/zimmer/doppelzimmer.md
 - content/zimmer/einzelzimmer.md
