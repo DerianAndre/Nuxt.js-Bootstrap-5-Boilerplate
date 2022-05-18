@@ -290,12 +290,33 @@
                 class="list-group-item bg-white py-5"
               >
                 <b-row class="align-items-center">
-                  <b-col md="6">
-                    <b-img
-                      src="https://picsum.photos/600/500/?image=27"
-                      fluid
-                      class="mb-3 mb-md-0 rounded-xl"
-                    ></b-img>
+                  <b-col
+                    v-if="(images = getApartment(apartmentPath).images)"
+                    md="6"
+                    class="mb-3 mb-md-0"
+                    :class="images.length > 0 ? 'd-block' : 'd-none'"
+                  >
+                    <b-carousel
+                      v-model="apartmentSlider"
+                      controls
+                      label-next
+                      label-prev
+                      v-if="images.length > 0"
+                    >
+                      <b-carousel-slide
+                        v-for="(image, key) in images"
+                        :key="key"
+                        :img-src="image"
+                      >
+                        <template #img>
+                          <img
+                            class="d-block img-fluid w-100 rounded-xl"
+                            :src="image"
+                            alt="image slot"
+                          />
+                        </template>
+                      </b-carousel-slide>
+                    </b-carousel>
                   </b-col>
                   <b-col md="6">
                     <h4 v-if="(apartment = getApartment(apartmentPath).title)">
@@ -393,6 +414,7 @@ export default {
     return {
       slide: 0,
       sliding: null,
+      apartmentSlider: 0,
     };
   },
   async asyncData({ $content, params }) {
