@@ -1,7 +1,7 @@
 ---
 title: Essen
-title_emotional: ""
-cover: ""
+title_emotional: So schmeckt der Süden
+cover: ''
 references: []
 description: ''
 

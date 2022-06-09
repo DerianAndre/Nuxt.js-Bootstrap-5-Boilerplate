@@ -44,7 +44,6 @@ sections:
 - type: document
   path: content/essen.md
   label: Essen
-  match: "**/*"
 - type: directory
   path: content/gastronomie
   label: Gastronomie

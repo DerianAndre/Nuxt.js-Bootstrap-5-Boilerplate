@@ -37,4 +37,5 @@ fields:
       section: ''
   label: Referenzen
 pages:
+- content/essen.md
 - content/schlafen.md
