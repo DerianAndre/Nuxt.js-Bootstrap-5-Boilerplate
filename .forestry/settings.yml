@@ -7,6 +7,13 @@ sections:
 - type: heading
   label: Schlafen
 - type: directory
+  path: content/unterkunft
+  label: Unterkunft
+  create: all
+  match: "**/*"
+  templates:
+  - accommodation
+- type: directory
   path: content/wohnungen
   label: Wohnungen
   create: all
