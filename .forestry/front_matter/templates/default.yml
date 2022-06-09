@@ -26,5 +26,15 @@ fields:
   config:
     maxSize: 64
   label: Cover
+- name: references
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: ''
+  label: Referenzen
 pages:
 - content/schlafen.md
