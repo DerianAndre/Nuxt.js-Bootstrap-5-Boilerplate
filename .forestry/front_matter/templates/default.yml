@@ -1,4 +1,28 @@
 ---
 label: Default
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: title_emotional
+  type: text
+  config:
+    required: false
+  label: Emotionaler Titel
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
+- name: cover
+  type: file
+  config:
+    maxSize: 64
+  label: Cover
