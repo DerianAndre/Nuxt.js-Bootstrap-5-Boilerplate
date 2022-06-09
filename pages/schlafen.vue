@@ -130,26 +130,26 @@
 
             <ul class="list-group list-group-flush">
               <li
-                v-for="apartmentPath in location.apartments"
-                :key="apartmentPath"
+                v-for="apartment in location.apartments"
+                :key="apartment.path"
                 class="list-group-item bg-white py-5"
               >
                 <b-row class="align-items-center">
                   <b-col
-                    v-if="(images = getApartment(apartmentPath).images)"
+                    v-if="apartment.images"
                     md="6"
                     class="mb-3 mb-md-0"
-                    :class="images.length > 0 ? 'd-block' : 'd-none'"
+                    :class="apartment.images.length > 0 ? 'd-block' : 'd-none'"
                   >
                     <b-carousel
                       v-model="apartmentSlider"
                       controls
                       label-next
                       label-prev
-                      v-if="images.length > 0"
+                      v-if="apartment.images.length > 0"
                     >
                       <b-carousel-slide
-                        v-for="(image, key) in images"
+                        v-for="(image, key) in apartment.images"
                         :key="key"
                         :img-src="image"
                       >
@@ -164,22 +164,19 @@
                     </b-carousel>
                   </b-col>
                   <b-col md="6">
-                    <h4 v-if="(apartment = getApartment(apartmentPath).title)">
-                      {{ apartment }}
+                    <h4>
+                      {{ apartment.title }}
                     </h4>
                     <b-card-text
-                      v-if="
-                        (description = getApartment(apartmentPath).description)
-                      "
-                      v-html="$md.render(description)"
+                      v-html="$md.render(apartment.description)"
                     ></b-card-text>
                   </b-col>
                 </b-row>
                 <b-row class="justify-content-end">
                   <b-col cols="auto"
                     ><b-btn
-                      v-if="(booking = getApartment(apartmentPath).booking)"
-                      :href="booking"
+                      v-if="apartment.booking"
+                      :href="apartment.booking"
                       variant="primary"
                       >Wohnung buchen</b-btn
                     ></b-col
@@ -207,15 +204,28 @@ export default {
       const page = await $content("/schlafen").fetch();
       const garni = await $content("/unterkunft/hotel-garni").fetch();
       const fewo = await $content("/unterkunft/unsere-ferienwohnungen").fetch();
-      const locations = await $content("locations")
-        .where({ apartments: { $type: "array" } })
-        .sortBy("createdAt", "desc")
-        .fetch();
-      const apartments = await $content("wohnungen")
-        .sortBy("createdAt", "desc")
-        .fetch();
       const rooms = await $content("zimmer").fetch();
-      return { page, garni, fewo, apartments, locations, rooms };
+
+      const apartments = (
+        await $content("wohnungen").sortBy("createdAt", "desc").fetch()
+      ).reduce((state, apartment) => {
+        state["content" + apartment.path + apartment.extension] = apartment;
+        return state;
+      }, {});
+
+      const locations = (
+        await $content("locations")
+          .where({ apartments: { $type: "array" } })
+          .sortBy("createdAt", "desc")
+          .fetch()
+      ).map((location) => {
+        location.apartments = location.apartments.map(
+          (path) => apartments[path]
+        );
+        return location;
+      });
+
+      return { page, garni, fewo, locations, rooms };
     } catch (err) {
       console.error({ err });
       error({
@@ -230,11 +240,6 @@ export default {
     },
     onSlideEnd(slide) {
       this.sliding = false;
-    },
-    getApartment(path) {
-      return this.apartments.find(
-        (apartment) => "content" + apartment.path + apartment.extension === path
-      );
     },
   },
 };
