@@ -26,3 +26,5 @@ fields:
   type: image_gallery
   config: {}
   label: Bilder
+pages:
+- content/unterkunft/hotel-garni.md
