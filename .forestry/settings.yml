@@ -9,7 +9,7 @@ sections:
 - type: directory
   path: content/unterkunft
   label: Unterkunft
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - accommodation
