@@ -5,3 +5,4 @@ dist/
 node_modules/
 static/sw.json
 .forestry/
+static/admin/index.html
