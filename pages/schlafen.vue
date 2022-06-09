@@ -62,7 +62,9 @@
                 @sliding-start="onSlideStart"
                 @sliding-end="onSlideEnd"
               >
-                <b-carousel-slide v-for="image in garni.images" :key="image"
+                <b-carousel-slide
+                  v-for="image in garni.images"
+                  :key="image"
                   :img-src="image"
                 ></b-carousel-slide>
               </b-carousel>
