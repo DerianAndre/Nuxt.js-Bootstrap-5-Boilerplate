@@ -1,7 +1,7 @@
 ---
 title: Unsere Ferienwohnungen
 title_emotional: ''
-text: |-
+description: |-
   Die Schwäbische Alb ist als Ferienziel für Familien beliebt und hat enorm viel zu bieten. Unsere komfortablen Ferienwohnungen sind ein idealer Ausgangspunkt für Ausflüge und Erkundungen aller Art.
 
   In unserem Garten befindet sich ein großes Spiel- und Klettergerüst für unsere kleinen Gäste. Er bietet unseren Gästen Platz zum Grillen und Sonnen. In unmittelbarer Nähe unseres Grundstücks gibt es einen großzügigen Motorik-Spielplatz mit angeschlossenem Bolzplatz.
