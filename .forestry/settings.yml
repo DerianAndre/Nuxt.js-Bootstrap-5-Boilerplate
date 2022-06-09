@@ -4,11 +4,10 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: heading
+  label: Schlafen
 - type: document
   path: content
-  label: Schlafen
-  match: "**/*"
-- type: heading
   label: Schlafen
 - type: directory
   path: content/unterkunft
