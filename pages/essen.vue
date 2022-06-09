@@ -1,5 +1,6 @@
 <template>
   <main>
+    <HeroPage :page="page" />
     <section
       class="py-5 my-5"
       v-for="(gastronomy, key) in gastronomies"
@@ -78,6 +79,7 @@
 export default {
   async asyncData({ $content, params }) {
     try {
+      const page = await $content("/essen").fetch();
       const gastronomies = await $content("gastronomie", { deep: true })
         .sortBy("createdAt", "desc")
         .fetch();
@@ -85,7 +87,7 @@ export default {
         .only(["title", "description", "slug", "path"])
         .sortBy("createdAt", "desc")
         .fetch();
-      return { gastronomies, locations };
+      return { page, gastronomies, locations };
     } catch (err) {
       error({
         statusCode: 404,
