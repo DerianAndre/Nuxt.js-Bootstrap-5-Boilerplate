@@ -202,7 +202,7 @@ export default {
       apartmentSlider: 0,
     };
   },
-  async asyncData({ $content, params }) {
+  async asyncData({ $content, params, error }) {
     try {
       const page = await $content("/schlafen").fetch();
       const garni = await $content("/unterkunft/hotel-garni").fetch();
@@ -217,6 +217,7 @@ export default {
       const rooms = await $content("zimmer").fetch();
       return { page, garni, fewo, apartments, locations, rooms };
     } catch (err) {
+      console.error({ err });
       error({
         statusCode: 404,
         message: "Page could not be found",
