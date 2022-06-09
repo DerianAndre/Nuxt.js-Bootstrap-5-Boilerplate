@@ -72,35 +72,6 @@
         </b-row>
       </b-container>
     </section>
-    <section class="opacity-25">
-      <b-container>
-        <b-row>
-          <b-col>
-            <h1>Tests</h1>
-          </b-col>
-        </b-row>
-        <b-row>
-          <b-col
-            v-for="gastronomy in gastronomies"
-            :key="gastronomy.title"
-            md="4"
-          >
-            <b-card
-              :title="gastronomy.title"
-              img-alt="Card image"
-              img-top
-              bg-variant="primary"
-              text-variant="light"
-            >
-              <hr />
-              <b-card-text v-if="gastronomy.location"
-                >Location: {{ getLocation(gastronomy.location) }}</b-card-text
-              >
-            </b-card>
-          </b-col>
-        </b-row>
-      </b-container>
-    </section>
   </main>
 </template>
 <script>
