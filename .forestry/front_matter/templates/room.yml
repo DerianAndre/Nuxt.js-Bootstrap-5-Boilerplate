@@ -39,8 +39,5 @@ fields:
   label: Buchungslink
 pages:
 - content/zimmer/doppelzimmer.md
-- content/zimmer/doppelzimmer.md
 - content/zimmer/einzelzimmer.md
-- content/zimmer/einzelzimmer.md
-- content/zimmer/familienzimmer.md
 - content/zimmer/familienzimmer.md
