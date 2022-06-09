@@ -1,6 +1,6 @@
 <template>
   <header
-    class="header bg-light shadow mb-3"
+    class="header bg-light shadow"
     :class="{
       'navbar-top': scrollPosition < scrollOffset,
       'navbar-scroll': scrollPosition > scrollOffset,
