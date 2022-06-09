@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Schlafen
 - type: document
-  path: content/**/*
+  path: content/schlafen
   label: Schlafen
 - type: directory
   path: content/unterkunft

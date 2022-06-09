@@ -60,6 +60,10 @@ fields:
   label: Location
 pages:
 - content/gastronomie/barbecue.md
+- content/gastronomie/barbecue.md
+- content/gastronomie/catering.md
 - content/gastronomie/catering.md
 - content/gastronomie/gemeinschaftsverpflegung.md
+- content/gastronomie/gemeinschaftsverpflegung.md
+- content/gastronomie/restaurant.md
 - content/gastronomie/restaurant.md
