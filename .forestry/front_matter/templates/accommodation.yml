@@ -13,7 +13,7 @@ fields:
   config:
     required: false
   label: Emotionaler Titel
-- name: text
+- name: description
   type: textarea
   default: ''
   config:
