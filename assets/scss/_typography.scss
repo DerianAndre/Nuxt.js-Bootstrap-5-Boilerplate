@@ -27,6 +27,14 @@ p {
   font-family: $font-family-base;
 }
 
+.font-base {
+  font-family: $font-family-base;
+}
+
+.font-serif {
+  font-family: $headings-font-family;
+}
+
 /* playfair-display-regular - latin */
 @font-face {
   font-family: "Playfair Display";
