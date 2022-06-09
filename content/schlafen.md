@@ -9,7 +9,7 @@ text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy e
   aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
   ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
   sit amet.
-cover: "/images/wohnung2und3-1.jpeg"
+cover: ''
 references:
 - content/unterkunft/hotel-garni.md
 - content/unterkunft/unsere-ferienwohnungen.md
