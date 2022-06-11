@@ -8,7 +8,7 @@ A simple ready-to-go boilerplate for Nuxt!
 ```
 Nuxt:             2.15.8
 Bootstrap:        5.1.3
-Bootstrap Icons:  1.7.2
+Bootstrap Icons:  1.8.3
 ```
 
 ## Build Setup
