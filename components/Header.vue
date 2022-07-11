@@ -10,7 +10,7 @@
     <nav class="navbar navbar-light navbar-expand-md">
       <div class="container">
         <NuxtLink to="/" class="navbar-brand">
-          <i class="bi bi-bootstrap fs-3"></i>
+          <Lamm width="50px" color="text-primary" />
         </NuxtLink>
 
         <button
