@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: content/news
+  label: News
+  create: all
+  match: "**/*"
+  templates:
+  - news
 - type: heading
   label: Schlafen
 - type: document
