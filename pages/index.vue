@@ -27,58 +27,7 @@
         </p>
       </b-container>
     </section>
-    <section class="py-5 my-5" style="background-color: #c7d3b5">
-      <b-container>
-        <b-row>
-          <h2>Aktuelles</h2>
-        </b-row>
-        <b-row>
-          <b-col md="6" class="p-5 border-end border-bottom">
-            <p class="display-1 font-serif mb-5">09.07.</p>
-            <h3 class="fs-5 font-base fw-bold">Event im Stadel</h3>
-            <p>
-              Wir haben unser tägliches Restaurantgeschäft im Gasthaus zum Lamm
-              seit Mai 2015 beendet. Zukünftig werden wir uns stärker auf die
-              Geschäftsfelder Catering/Partyservice und Veranstaltungen
-              konzentrieren.
-            </p>
-            <p>19:00 Uhr</p>
-          </b-col>
-          <b-col md="6" class="p-5 border-start border-bottom">
-            <p class="display-1 font-serif mb-5">ⓘ</p>
-            <h3 class="fs-5 font-base fw-bold">Aktuelle Corona Information</h3>
-            <p>
-              Wir haben unser tägliches Restaurantgeschäft im Gasthaus zum Lamm
-              seit Mai 2015 beendet. Zukünftig werden wir uns stärker auf die
-              Geschäftsfelder Catering/Partyservice und Veranstaltungen
-              konzentrieren.
-            </p>
-          </b-col>
-          <b-col md="6" class="p-5 border-end border-top">
-            <p class="display-1 font-serif mb-5">28.09.</p>
-            <h3 class="fs-5 font-base fw-bold">Event im Stadel</h3>
-            <p>
-              Wir haben unser tägliches Restaurantgeschäft im Gasthaus zum Lamm
-              seit Mai 2015 beendet. Zukünftig werden wir uns stärker auf die
-              Geschäftsfelder Catering/Partyservice und Veranstaltungen
-              konzentrieren.
-            </p>
-            <p>19:00 Uhr</p>
-          </b-col>
-          <b-col md="6" class="p-5 border-start border-top">
-            <p class="display-1 font-serif mb-5">11.10.</p>
-            <h3 class="fs-5 font-base fw-bold">Event im Stadel</h3>
-            <p>
-              Wir haben unser tägliches Restaurantgeschäft im Gasthaus zum Lamm
-              seit Mai 2015 beendet. Zukünftig werden wir uns stärker auf die
-              Geschäftsfelder Catering/Partyservice und Veranstaltungen
-              konzentrieren.
-            </p>
-            <p>19:00 Uhr</p>
-          </b-col>
-        </b-row>
-      </b-container>
-    </section>
+    <NewsSection :news="news" />
     <section class="py-5">
       <b-container>
         <b-row class="align-items-center">
@@ -116,15 +65,6 @@
         </b-row>
       </b-container>
     </section>
-    <section>
-      <b-container>
-        <ul>
-          <li v-for="post in articles" :key="post.title">
-            <nuxt-link :to="post.path">{{ post.title }}</nuxt-link>
-          </li>
-        </ul>
-      </b-container>
-    </section>
   </main>
 </template>
 
@@ -132,12 +72,10 @@
 export default {
   async asyncData({ $content, params }) {
     try {
-      const articles = await $content({ deep: true })
-        .only(["title", "description", "image", "path"])
-        .sortBy("createdAt", "desc")
-        .fetch();
-      return { articles };
+      const news = await $content("news").limit(4).fetch();
+      return { news };
     } catch (err) {
+      console.error({ err });
       error({
         statusCode: 404,
         message: "Page could not be found",
