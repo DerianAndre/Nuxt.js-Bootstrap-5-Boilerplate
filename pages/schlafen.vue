@@ -201,9 +201,9 @@ export default {
   },
   async asyncData({ $content, params, error }) {
     try {
-      const page = await $content("/schlafen").fetch();
-      const garni = await $content("/unterkunft/hotel-garni").fetch();
-      const fewo = await $content("/unterkunft/unsere-ferienwohnungen").fetch();
+      const page = await $content("schlafen").fetch();
+      const garni = await $content("unterkunft/hotel-garni").fetch();
+      const fewo = await $content("unterkunft/unsere-ferienwohnungen").fetch();
       const rooms = await $content("zimmer").fetch();
 
       const apartments = (

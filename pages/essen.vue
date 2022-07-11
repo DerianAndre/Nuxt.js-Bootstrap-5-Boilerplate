@@ -79,7 +79,7 @@
 export default {
   async asyncData({ $content, params }) {
     try {
-      const page = await $content("/essen").fetch();
+      const page = await $content("essen").fetch();
       const gastronomies = await $content("gastronomie", { deep: true })
         .sortBy("createdAt", "desc")
         .fetch();
