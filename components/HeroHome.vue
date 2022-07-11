@@ -8,7 +8,7 @@
         <div class="w-25 mb-3">
           <Lamm />
         </div>
-        <h1 class="w-75 me-auto">Willkommen auf der Schwäbischen Alb</h1>
+        <h1 class="w-75 me-auto">{{ page.title_emotional }}</h1>
       </b-col>
       <b-col md="3" class="p-5" style="background-color: #c7d3b5">
         <h2 class="h3">Headline für Gastronomie</h2>
@@ -55,3 +55,8 @@
     </b-row>
   </header>
 </template>
+<script>
+export default {
+  props: ["page"],
+};
+</script>

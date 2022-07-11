@@ -1,5 +1,5 @@
 <template>
-  <section class="py-5 my-5" style="background-color: #c7d3b5">
+  <section class="py-5" style="background-color: #c7d3b5">
     <b-container>
       <b-row>
         <h2>Aktuelles</h2>
