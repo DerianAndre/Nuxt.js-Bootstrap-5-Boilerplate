@@ -1,4 +1,24 @@
 ---
 label: News
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: date
+  type: text
+  config:
+    required: false
+  label: Datum
+  description: Datum des Events
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Beschreibung
