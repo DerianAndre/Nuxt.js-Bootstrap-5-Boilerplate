@@ -18,7 +18,7 @@
               : 'border-start border-top'
           "
           v-for="(post, i) in news"
-          :key="post"
+          :key="i"
         >
           <p class="display-1 font-serif mb-5">
             {{ (date = post.date) ? date : "ⓘ" }}
