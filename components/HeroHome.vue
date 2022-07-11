@@ -11,46 +11,39 @@
         <h1 class="w-75 me-auto">{{ page.title_emotional }}</h1>
       </b-col>
       <b-col md="3" class="p-5" style="background-color: #c7d3b5">
-        <h2 class="h3">Headline für Gastronomie</h2>
+        <h2 class="h3">So schmeckt der Süden</h2>
         <p class="mb-5">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy.
+          À la carte, Gemeinschaftsverpflegung, Barbecue und Catering
         </p>
-        <b-btn variant="outline-secondary">Essen</b-btn>
+        <b-btn variant="outline-secondary" to="/essen">Essen</b-btn>
       </b-col>
       <b-col
         md="3"
         style="
-          background: no-repeat center url(https://picsum.photos/400);
+          background: no-repeat center url(https://picsum.photos/600);
           background-size: cover;
-          min-height: 16rem;
+          min-height: 24rem;
         "
       ></b-col>
     </b-row>
     <b-row no-gutters>
       <b-col md="3" class="bg-gray py-5 px-5" style="background-color: #c7d3b5">
-        <h2 class="h3">Headline für Ferienwohnungen</h2>
-        <p class="mb-5">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy.
-        </p>
-        <b-btn variant="outline-secondary">Schlafen</b-btn>
+        <h2 class="h3">Erholsame Nächte und leckeres Frühstück</h2>
+        <p class="mb-5">Hotel Garni und Ferienwohnungen</p>
+        <b-btn variant="outline-secondary" to="/schlafen">Schlafen</b-btn>
       </b-col>
       <b-col
         md="6"
         style="
-          background: no-repeat center url(https://picsum.photos/400);
+          background: no-repeat center url(https://picsum.photos/800/600);
           background-size: cover;
           min-height: 24rem;
         "
       ></b-col>
       <b-col md="3" class="bg-primary text-light p-5">
-        <h2 class="h3">Headline für Feiern</h2>
-        <p class="mb-5">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy.
-        </p>
-        <b-btn variant="outline-white">Feiern</b-btn>
+        <h2 class="h3">Feiern mit Stil</h2>
+        <p class="mb-5">Die perfekte Location für jeden Anlass</p>
+        <b-btn variant="outline-white" to="/feiern">Feiern</b-btn>
       </b-col>
     </b-row>
   </header>
