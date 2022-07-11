@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/index.md
   label: Startseite
-  match: "**/*"
 - type: heading
   label: Neuigkeiten
 - type: directory
