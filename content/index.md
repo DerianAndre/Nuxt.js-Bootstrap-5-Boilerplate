@@ -2,9 +2,10 @@
 title: Gasthaus Lamm
 title_emotional: Willkommen auf der Schwäbischen Alb
 description: ''
+cover: ''
+references: []
 
 ---
-
 <mini-container>
 
 <h2 class="subtitle">Gasthaus Lamm</h2>

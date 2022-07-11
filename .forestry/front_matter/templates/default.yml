@@ -38,4 +38,5 @@ fields:
   label: Referenzen
 pages:
 - content/essen.md
+- content/index.md
 - content/schlafen.md
