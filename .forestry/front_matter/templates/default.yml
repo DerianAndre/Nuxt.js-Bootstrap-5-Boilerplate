@@ -12,15 +12,6 @@ fields:
   config:
     required: false
   label: Emotionaler Titel
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Text
 - name: cover
   type: file
   config:
