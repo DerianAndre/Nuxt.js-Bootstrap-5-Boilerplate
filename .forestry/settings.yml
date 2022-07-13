@@ -47,7 +47,6 @@ sections:
 - type: document
   path: content/feiern.md
   label: Feiern
-  match: "**/*"
 - type: directory
   path: content/anlass
   label: Anlass

@@ -1,9 +1,28 @@
 ---
 label: Anlass
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: title
   label: Titel
+- name: title__emotional
+  type: text
+  config:
+    required: false
+  label: Titel (emotional)
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Beschreibung
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Bild
 pages:
 - content/anlass/familienfest.md
