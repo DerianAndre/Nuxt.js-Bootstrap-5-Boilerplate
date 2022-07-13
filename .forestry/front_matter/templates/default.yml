@@ -19,5 +19,4 @@ fields:
   label: Cover
 pages:
 - content/essen.md
-- content/index.md
 - content/schlafen.md

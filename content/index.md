@@ -4,6 +4,7 @@ title_emotional: Willkommen auf der Schwäbischen Alb
 description: ''
 cover: ''
 references: []
+images: []
 
 ---
 <mini-container>
