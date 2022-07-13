@@ -1,0 +1,16 @@
+---
+label: Home
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: title_emotional
+  label: title_emotional
+- type: text
+  name: cover
+  label: cover
+- type: text
+  name: description
+  label: description
