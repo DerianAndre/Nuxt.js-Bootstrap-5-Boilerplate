@@ -17,6 +17,11 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: "Willkommen auf der Schwäbischen Alb",
+    };
+  },
   async asyncData({ $content, params, error }) {
     try {
       const page = await $content("index").fetch();

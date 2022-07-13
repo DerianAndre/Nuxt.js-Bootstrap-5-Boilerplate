@@ -12,7 +12,8 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Gasthaus Lamm - Willkommen auf der Schwäbischen Alb",
+    titleTemplate: (title) =>
+      [title, "Gasthaus Lamm"].filter(Boolean).join(" - "),
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
