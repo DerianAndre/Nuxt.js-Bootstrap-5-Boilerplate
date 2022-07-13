@@ -9,8 +9,11 @@
   >
     <nav class="navbar navbar-light navbar-expand-md">
       <div class="container">
-        <NuxtLink to="/" class="navbar-brand">
-          <Lamm width="50px" color="text-primary" />
+        <NuxtLink to="/" class="navbar-brand d-flex align-items-center">
+          <Lamm width="50px" color="text-primary" /><span
+            class="ps-3 text-primary font-serif"
+            >Gasthaus Lamm</span
+          >
         </NuxtLink>
 
         <button
@@ -34,7 +37,7 @@
             <li v-for="item in menu" :key="item.name">
               <NuxtLink
                 :to="item.to"
-                class="nav-link"
+                class="nav-link text-primary"
                 :class="
                   $nuxt.$route.name === item.name.toLowerCase() ? 'fw-bold' : ''
                 "
