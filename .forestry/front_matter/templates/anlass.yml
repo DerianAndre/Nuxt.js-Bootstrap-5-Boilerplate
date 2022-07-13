@@ -26,4 +26,5 @@ fields:
   label: Bild
 pages:
 - content/anlass/familienfest.md
+- content/anlass/geburtstag.md
 - content/anlass/hochzeit.md
