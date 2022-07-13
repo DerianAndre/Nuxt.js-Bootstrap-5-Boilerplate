@@ -19,8 +19,10 @@
       </b-col>
       <b-col
         md="3"
+        :style="'background-image: url(' + page.images[0] + ')'"
         style="
-          background: no-repeat center url(https://picsum.photos/600);
+          background-color: lightgrey;
+          background: no-repeat center;
           background-size: cover;
           min-height: 24rem;
         "
@@ -34,8 +36,10 @@
       </b-col>
       <b-col
         md="6"
+        :style="'background-image: url(' + page.images[1] + ')'"
         style="
-          background: no-repeat center url(https://picsum.photos/800/600);
+          background-color: lightgrey;
+          background: no-repeat center;
           background-size: cover;
           min-height: 24rem;
         "
