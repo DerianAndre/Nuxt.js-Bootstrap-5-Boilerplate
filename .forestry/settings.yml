@@ -22,12 +22,12 @@ sections:
   path: content/schlafen.md
   label: Schlafen
 - type: directory
-  path: content/unterkunft
-  label: Unterkunft
-  create: documents
+  path: content/zimmer
+  label: Zimmer
+  create: all
   match: "**/*"
   templates:
-  - accommodation
+  - room
 - type: directory
   path: content/wohnungen
   label: Wohnungen
@@ -36,12 +36,19 @@ sections:
   templates:
   - apartment
 - type: directory
-  path: content/zimmer
-  label: Zimmer
+  path: content/unterkunft
+  label: Unterkunft
+  create: documents
+  match: "**/*"
+  templates:
+  - accommodation
+- type: directory
+  path: content/locations
+  label: Locations
   create: all
   match: "**/*"
   templates:
-  - room
+  - location
 - type: heading
   label: Feiern
 - type: document
@@ -66,15 +73,6 @@ sections:
   match: "**/*"
   templates:
   - gastronomy
-- type: heading
-  label: Mehr
-- type: directory
-  path: content/locations
-  label: Locations
-  create: all
-  match: "**/*"
-  templates:
-  - location
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
