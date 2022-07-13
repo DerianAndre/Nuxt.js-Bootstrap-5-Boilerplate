@@ -32,9 +32,14 @@
         >
           <ul class="navbar-nav">
             <li v-for="item in menu" :key="item.name">
-              <NuxtLink :to="item.to" class="nav-link">{{
-                item.name
-              }}</NuxtLink>
+              <NuxtLink
+                :to="item.to"
+                class="nav-link"
+                :class="
+                  $nuxt.$route.name === item.name.toLowerCase() ? 'fw-bold' : ''
+                "
+                >{{ item.name }}</NuxtLink
+              >
             </li>
           </ul>
         </div>
