@@ -9,8 +9,9 @@ fields:
   name: title_emotional
   label: title_emotional
 - type: text
-  name: cover
-  label: cover
-- type: text
   name: description
   label: description
+- name: images
+  type: image_gallery
+  config: {}
+  label: Bilder
