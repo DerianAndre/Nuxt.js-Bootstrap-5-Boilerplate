@@ -9,5 +9,6 @@ description: "Wir möchten Ihren schönsten Tag für Sie unvergesslich machen. \
   oder buchen Sie bei uns nur das, was Sie aus der Hand geben möchten. Bei uns können
   Sie Ihre Feier so individuell gestalten, wie Sie sich Ihre Hochzeitsfeier vorstellen."
 image: "/images/lammwirt-stadel2.jpeg"
+headline: Genießen Sie den schönsten Tag
 
 ---
