@@ -15,5 +15,6 @@ fields:
   type: image_gallery
   config: {}
   label: Bilder
+  description: Es werden nur 2 Bilder im Banner auf der Startseite angezeigt
 pages:
 - content/index.md
