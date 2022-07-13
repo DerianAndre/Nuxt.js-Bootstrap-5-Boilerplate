@@ -5,7 +5,7 @@ fields:
 - type: text
   name: title
   label: Titel
-- name: title__emotional
+- name: headline
   type: text
   config:
     required: false
