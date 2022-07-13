@@ -155,7 +155,7 @@
                       >
                         <template #img>
                           <img
-                            class="d-block img-fluid w-100 rounded-xl"
+                            class="d-block img-fluid w-100"
                             :src="image"
                             alt="image slot"
                           />
