@@ -5,10 +5,24 @@ A simple ready-to-go boilerplate for Nuxt!
 [Bootstrap Icons](https://github.com/twbs/icons) boilerplate with some modifications.
 
 ## Versions
+```json
+{
+  "bootstrap": "^5.1.3",
+  "bootstrap-icons": "^1.9.1",
+  "nuxt": "^2.15.8"
+}
 ```
-Nuxt:             2.15.8
-Bootstrap:        5.1.3
-Bootstrap Icons:  1.8.3
+
+## Extras
+```json
+{
+  "@nuxt/content": "^1.14.0",
+  "@nuxtjs/pwa": "^3.3.5",
+  "@nuxtjs/robots": "^2.5.0",
+  "@nuxtjs/sitemap": "^2.4.0",
+  "core-js": "^3.15.2",
+  "lazysizes": "^5.3.2",
+}
 ```
 
 ## Build Setup
