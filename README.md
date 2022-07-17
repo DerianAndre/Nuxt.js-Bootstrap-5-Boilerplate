@@ -1,8 +1,8 @@
 # Nuxt.js + Bootstrap 5 - Boilerplate
-A simple ready-to-go boilerplate for Nuxt!
+A simple ready-to-go boilerplate boilerplate with some modifications.
 [Nuxt.js](https://github.com/nuxt/nuxt.js)
 [Bootstrap 5](https://github.com/twbs/bootstrap)
-[Bootstrap Icons](https://github.com/twbs/icons) boilerplate with some modifications.
+[Bootstrap Icons](https://github.com/twbs/icons)
 
 ## Versions
 ```json
