@@ -10,7 +10,7 @@ description: |-
 menus:
 - menu: "/images/speisekarte_29_oktober_2021_sds-komprimiert.pdf"
   label: Unsere Speisekarte
-location: content/locations/gasthaus-zum-lamm.md
+location: ''
 headline: Verwöhnen Sie ihren Gaumen mit Köstlichkeiten von der schwäbischen Alb
 image: ''
 
