@@ -1,5 +1,6 @@
 <template>
   <main>
+    <HeroPage :page="page" />
     <nuxt-content :document="page" />
     <section class="py-5 my-5" v-for="(reason, key) in reasons" :key="key">
       <b-container>

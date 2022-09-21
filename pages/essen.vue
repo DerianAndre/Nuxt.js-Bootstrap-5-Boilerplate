@@ -42,8 +42,8 @@
               >
                 <h3>Unsere Speisepläne</h3>
                 <a
-                  v-for="menu in gastronomy.menus"
-                  :key="menu"
+                  v-for="menu, i in gastronomy.menus"
+                  :key="i"
                   class="list-group-item list-group-item-action d-flex justify-content-between align-items-center bg-white"
                   :href="menu.menu"
                   target="_blank"

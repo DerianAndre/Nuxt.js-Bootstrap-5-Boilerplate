@@ -34,7 +34,7 @@
           class="navbar-collapse collapse flex-grow-0 ms-auto"
         >
           <ul class="navbar-nav">
-            <li v-for="item in menu" :key="item.name">
+            <li v-for="item, i in menu" :key="i">
               <NuxtLink
                 :to="item.to"
                 class="nav-link text-primary"
