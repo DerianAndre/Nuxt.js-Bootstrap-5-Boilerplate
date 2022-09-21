@@ -31,7 +31,7 @@
                 @sliding-end="onSlideEnd"
               >
                 <b-carousel-slide
-                  v-for="image,i in garni.images"
+                  v-for="(image, i) in garni.images"
                   :key="i"
                   :img-src="image"
                 ></b-carousel-slide>
@@ -40,7 +40,7 @@
           </b-col>
         </b-row>
         <b-row class="my-5">
-          <b-col v-for="room, i in rooms" :key="i">
+          <b-col v-for="(room, i) in rooms" :key="i">
             <b-card
               :title="room.title"
               :sub-title="room.price"
@@ -84,7 +84,7 @@
           <b-tab
             title-item-class="mb-2 mx-2 bg-light"
             title-link-class="p-0 h-100 border border-5 rounded-xl overflow-hidden text-decoration-none opacity-50 flex-nowrap"
-            v-for="location,i in locations"
+            v-for="(location, i) in locations"
             :key="i"
           >
             <template #title>
@@ -131,7 +131,7 @@
 
             <ul class="list-group list-group-flush">
               <li
-                v-for="apartment,i in location.apartments"
+                v-for="(apartment, i) in location.apartments"
                 :key="i"
                 class="list-group-item bg-white py-5"
               >
