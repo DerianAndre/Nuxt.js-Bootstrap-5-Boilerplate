@@ -54,6 +54,7 @@
                 v-if="room.booking"
                 :href="room.booking"
                 variant="primary"
+                target="_blank"
                 >Buchen</b-button
               >
             </b-card>
@@ -177,6 +178,7 @@
                     ><b-btn
                       v-if="apartment.booking"
                       :href="apartment.booking"
+                      target="_blank"
                       variant="primary"
                       >Wohnung buchen</b-btn
                     ></b-col
