@@ -2,6 +2,7 @@
   <div class="layout" style="overflow-x: hidden">
     <Header />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 <script>
