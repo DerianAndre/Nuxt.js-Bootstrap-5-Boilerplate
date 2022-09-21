@@ -1,6 +1,6 @@
 ---
 price: ab 49,00 €/Nacht
-title: Einzelzimmer
+title: Doppelzimmer zur Einzelnutzung
 icon: ''
 description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
   eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
