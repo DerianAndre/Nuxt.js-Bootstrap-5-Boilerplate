@@ -1,4 +1,0 @@
----
-title: Gasthaus zum Lamm
-
----
