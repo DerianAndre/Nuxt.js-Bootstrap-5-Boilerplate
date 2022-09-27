@@ -22,5 +22,3 @@ fields:
     schema:
       format: markdown
   label: Beschreibung
-pages:
-- content/news/event-im-stadel.md
