@@ -19,9 +19,7 @@ export default {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
     ],
-    link: [
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
-    ],
+    link: [{ rel: "icon", href: "/favicon.ico", type: "image/x-icon" }],
     script: [
       {
         src: "https://polyfill.io/v3/polyfill.min.js?features=es6",

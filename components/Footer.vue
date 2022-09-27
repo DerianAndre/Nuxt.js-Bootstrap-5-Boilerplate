@@ -7,7 +7,12 @@
           <span class="text-muted small text-uppercase mx-md-2"
             >Gasthaus zum Lamm</span
           >
-          <img src="aehre-footer.png" alt="Grüne Ähre" height="20" class="mx-1" />
+          <img
+            src="aehre-footer.png"
+            alt="Grüne Ähre"
+            height="20"
+            class="mx-1"
+          />
           <span class="text-muted small text-uppercase mx-md-2"
             >Lammwirt Stadel</span
           >
@@ -36,7 +41,10 @@
         </b-col>
       </b-row>
       <div class="text-muted small mt-5">
-        made with ❤️ by <a href="https://www.allesdigital.io/" class="text-muted">allesdigital</a>
+        made with ❤️ by
+        <a href="https://www.allesdigital.io/" class="text-muted"
+          >allesdigital</a
+        >
       </div>
     </div>
   </footer>
