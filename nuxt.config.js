@@ -40,8 +40,6 @@ export default {
   components: true,
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/pwa
-    "@nuxtjs/pwa",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
     // https://github.com/nuxt-community/robots-module
@@ -53,12 +51,6 @@ export default {
   ],
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [],
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: "en",
-    },
-  },
   markdownit: {
     runtime: true, // Support `$md()`
   },

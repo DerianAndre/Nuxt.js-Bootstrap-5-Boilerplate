@@ -16,7 +16,6 @@
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/markdownit": "^2.0.0",
-    "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "@popperjs/core": "^2.11.5",
