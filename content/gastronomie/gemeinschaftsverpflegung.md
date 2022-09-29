@@ -26,7 +26,7 @@ menus:
 - label: Kalenderwoche40 bis 08.10.2022
   menu: "/images/speisenplan-kw-40-08-10-2022.pdf"
 headline: ''
-image: ''
+image: "/images/ahv_geniesserland_a4_2018.pdf"
 location: ''
 
 ---
