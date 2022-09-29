@@ -18,6 +18,8 @@ description: |-
 
   Bei der Buchung unserer Ferienwohnung (ab 3 Nächten) erhalten SIe von uns kostenfrei die ALB-Card.
 
+  ![](/images/albcard.png)
+
   **→** **kostenfreie** Nutzung des öffentlichen Nahverkehrs
 
   **→** **GRATIS** Eintritt & Leistungen in **über 150 Attraktionen**
