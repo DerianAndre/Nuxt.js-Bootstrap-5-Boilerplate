@@ -28,8 +28,8 @@
         /></b-col>
         <b-col md="4" class="mb-3">
           <h3>Kontakt</h3>
-          Dorfstrasse 56<br />89143 Blaubeuren/Asch<br />Telefon 07344 6419<br />Telefax
-          07344 21916205<br />info[at]fewo-lamm.de<br />
+          Dorfstrasse 56<br />89143 Blaubeuren/Asch<br />Telefon 07344/6419<br />Telefax
+          07344/21916<br />info[at]fewo-lamm.de<br />
         </b-col>
         <b-col md="4" class="mb-3">
           <h3>Öffnungszeiten</h3>
