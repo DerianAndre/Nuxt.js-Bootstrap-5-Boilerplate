@@ -22,3 +22,5 @@ fields:
     schema:
       format: markdown
   label: Beschreibung
+pages:
+- content/news/ente-trifft-gans-im-gasthaus-lamm.md
