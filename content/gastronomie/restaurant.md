@@ -8,7 +8,7 @@ description: |-
   Über 90% unserer Zutaten und Getränke beziehen wir aus unserer Region bzw. aus Baden-Württemberg.
   Hierfür wurden wir aktuell mit 3 von 3 Baden-Württembergischen-Schmeck den Süden Löwen ausgezeichnet.
 menus:
-- menu: "/images/speisekarte_29_oktober_2021_sds-komprimiert.pdf"
+- menu: "/images/speisekarte-04-22-lamm-asch.pdf"
   label: Unsere Speisekarte
 location: ''
 headline: Verwöhnen Sie ihren Gaumen mit Köstlichkeiten von der schwäbischen Alb
