@@ -1,5 +1,5 @@
 ---
-persons: 
+persons: 4
 location: content/locations/am-pfarrgarten-23.md
 title: Wohnung Nr. 23/6
 description: "In dem neuen Gebäude von 2014 befinden sich großzügige, modern und zeitlos
@@ -11,6 +11,12 @@ description: "In dem neuen Gebäude von 2014 befinden sich großzügige, modern 
   Mikrowelle, Wasserkocher, Töpfen und ausreichend Geschirr und Besteck.  \n  \nDie
   Wohnungen sind sehr ruhig gelegen mit Blick ins Grüne."
 images:
+- "/images/236-6.jpg"
+- "/images/236-5.jpg"
+- "/images/236-4.jpg"
+- "/images/236-3.jpg"
+- "/images/236-2.jpg"
+- "/images/236-1.jpg"
 - "/images/grundriss-236.jpg"
 booking: https://v4.ibe.dirs21.de/channels/fewo-lammde?culture=de-DE&room_id=104927&los=3
 
