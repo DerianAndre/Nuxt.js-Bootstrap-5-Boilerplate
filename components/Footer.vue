@@ -35,8 +35,8 @@
           <h3>Öffnungszeiten</h3>
           <p>Öffnungszeiten nach Vereinbarung bzw. auf Nachfrage.</p>
           <p>
-            Vesper im Gasthaus zum Lamm jeden 2. Freitag in ungeraden
-            Kalenderwochen.
+            Jeden 2. Freitag können wie gewohnt unsere leckeren Spezialitäten im
+            Lamm genossen werden.
           </p>
         </b-col>
       </b-row>
