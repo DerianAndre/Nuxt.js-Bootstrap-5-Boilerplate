@@ -40,12 +40,19 @@
           </p>
         </b-col>
       </b-row>
-      <div class="text-muted small mt-5">
-        made with ❤️ by
-        <a href="https://www.allesdigital.io/" class="text-muted"
-          >allesdigital</a
-        >
-      </div>
+      <b-row align-h="between" class="mt-3">
+        <b-col md="6" class="text-muted small">
+          made with ❤️ by
+          <a href="https://www.allesdigital.io/" class="text-muted"
+            >allesdigital</a
+          >
+        </b-col>
+        <b-col md="6" class="d-flex justify-content-md-end small mt-2 mt-md-0">
+          <a href="/impressum" class="text-muted">Impressum</a
+          ><span class="mx-1">|</span>
+          <a href="/datenschutz" class="text-muted">Datenschutz</a>
+        </b-col>
+      </b-row>
     </div>
   </footer>
 </template>
