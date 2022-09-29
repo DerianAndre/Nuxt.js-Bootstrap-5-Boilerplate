@@ -10,7 +10,8 @@ description: "In dem neuen Gebäude von 2014 befinden sich großzügige, modern 
   eine Ministereoanlage.  \nDie Küchen sind voll ausgestattet, unter anderem mit Kaffeemaschine,
   Mikrowelle, Wasserkocher, Töpfen und ausreichend Geschirr und Besteck.  \n  \nDie
   Wohnungen sind sehr ruhig gelegen mit Blick ins Grüne."
-images: []
+images:
+- "/images/grundriss-236.jpg"
 booking: https://v4.ibe.dirs21.de/channels/fewo-lammde?culture=de-DE&room_id=104927&los=3
 
 ---
