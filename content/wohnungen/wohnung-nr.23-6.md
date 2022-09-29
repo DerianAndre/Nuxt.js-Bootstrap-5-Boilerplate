@@ -11,6 +11,8 @@ description: "In dem neuen Gebäude von 2014 befinden sich großzügige, modern 
   Mikrowelle, Wasserkocher, Töpfen und ausreichend Geschirr und Besteck.  \n  \nDie
   Wohnungen sind sehr ruhig gelegen mit Blick ins Grüne."
 images:
+- "/images/pfarrgarten-23-2.jpg"
+- "/images/pfarrgarten-23.jpg"
 - "/images/236-6.jpg"
 - "/images/236-5.jpg"
 - "/images/236-4.jpg"
