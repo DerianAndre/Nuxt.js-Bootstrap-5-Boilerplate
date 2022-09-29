@@ -12,7 +12,7 @@ description: |-
 
   ![](/images/5sterne-siegel-neu-200x200.png)
 
-  Wir sind ausgewählter Dienstleister bei 5Sternehochzeit
+  Wir sind ausgewählter Dienstleister bei [5Sternehochzeit](www.5sternehochzeit.de "5sternehochzeit")
 
   Ein Zusammenschluss aus Dienstleistern, rund um die Hochzeit
 image: "/images/lammwirt-stadel2.jpeg"
