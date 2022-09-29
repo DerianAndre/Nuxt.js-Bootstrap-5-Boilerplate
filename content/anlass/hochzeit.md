@@ -10,9 +10,9 @@ description: |-
 
   Feiern Sie entspannt in unserem stilvollen Stadel und nutzen unseren Rundum-Sorglos-Service, oder buchen Sie bei uns nur das, was Sie aus der Hand geben möchten. Bei uns können Sie Ihre Feier so individuell gestalten, wie Sie sich Ihre Hochzeitsfeier vorstellen.
 
-                                       ![](/images/5sterne-siegel-neu-200x200.png)
+  ![](/images/5sterne-siegel-neu-200x200.png)
 
-   Wir sind ausgewählter Dienstleister bei 5Sternehochzeit
+  Wir sind ausgewählter Dienstleister bei 5Sternehochzeit
 
   Ein Zusammenschluss aus Dienstleistern, rund um die Hochzeit
 image: "/images/lammwirt-stadel2.jpeg"
