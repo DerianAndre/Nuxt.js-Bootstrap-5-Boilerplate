@@ -2,7 +2,7 @@
   <section v-if="news.length" class="py-5" style="background-color: #c7d3b5">
     <b-container>
       <b-row>
-        <h2>Aktuelles</h2>
+        <h2 id="news">Aktuelles</h2>
       </b-row>
       <b-row>
         <b-col
