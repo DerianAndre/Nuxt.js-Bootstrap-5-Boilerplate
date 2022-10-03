@@ -1,7 +1,7 @@
 <template>
   <main>
     <HeroPage :page="page" />
-    <section class="py-5">
+    <section id="garni" class="py-5">
       <b-container>
         <b-row>
           <b-col :md="garni.images.length ? '5' : '8'">
@@ -62,7 +62,7 @@
         </b-row>
       </b-container>
     </section>
-    <section class="py-5">
+    <section id="ferienwohnungen" class="py-5">
       <b-container>
         <b-row class="mb-5">
           <b-col md="8">
