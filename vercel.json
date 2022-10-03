@@ -4,6 +4,91 @@
       "source": "/index.php/kontakt",
       "destination": "/",
       "statusCode": 301
+    },
+    {
+      "source": "/index.php/impressum",
+      "destination": "/impressum",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/datenschutz",
+      "destination": "/datenschutz",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/kontakt",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/home/restaurant-2",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/home/stadel",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/kontakt",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/home/stadel/barbecue",
+      "destination": "/essen",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/home/stadel/speisekarte",
+      "destination": "/essen",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/home/partyservice-catering",
+      "destination": "/essen",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/home/gemeinschaftsverpflegung",
+      "destination": "/essen",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/home/ferienwohnungen",
+      "destination": "/schlafen#ferienwohnungen",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/home/gaestehaus",
+      "destination": "/schlafen#garni",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/aktuelles",
+      "destination": "/#news",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/veranstaltungstechnik",
+      "destination": "/feiern",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/jobs",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.php/umwelt",
+      "destination": "/",
+      "statusCode": 301
     }
   ]
 }
