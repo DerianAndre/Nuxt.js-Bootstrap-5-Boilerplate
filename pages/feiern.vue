@@ -45,6 +45,20 @@
 </template>
 <script>
 export default {
+  head() {
+    return {
+      title: this.page.meta_title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.page.meta_description
+            ? this.page.meta_description
+            : null,
+        },
+      ],
+    };
+  },
   async asyncData({ $content, params, error }) {
     try {
       const page = await $content("feiern").fetch();

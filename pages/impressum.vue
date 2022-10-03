@@ -1185,7 +1185,23 @@ export default {
     return {
       page: {
         title: "Impressum",
+        meta_description:
+          "Gastronomiebetrieb Gasthaus zum Lamm Familie Roman Mattheis | Dorfstrasse 56, 89143 Blaubeuren/Asch",
       },
+    };
+  },
+  head() {
+    return {
+      title: this.page.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.page.meta_description
+            ? this.page.meta_description
+            : null,
+        },
+      ],
     };
   },
 };

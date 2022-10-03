@@ -19,7 +19,16 @@
 export default {
   head() {
     return {
-      title: "Willkommen auf der Schwäbischen Alb",
+      title: this.page.meta_title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.page.meta_description
+            ? this.page.meta_description
+            : null,
+        },
+      ],
     };
   },
   async asyncData({ $content, error }) {
