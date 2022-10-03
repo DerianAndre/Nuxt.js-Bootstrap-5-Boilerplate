@@ -16,5 +16,10 @@ fields:
   config: {}
   label: Bilder
   description: Es werden nur 2 Bilder im Banner auf der Startseite angezeigt
+- name: meta
+  type: include
+  config: {}
+  template: meta
+  label: Meta
 pages:
 - content/index.md
