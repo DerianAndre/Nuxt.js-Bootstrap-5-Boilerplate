@@ -1,8 +1,10 @@
 ---
 title: Feiern
 title_emotional: Feiern mit Stil
-cover: ""
+cover: ''
 description: ''
+meta_title: ''
+meta_description: ''
 
 ---
 <mini-container>
@@ -21,10 +23,3 @@ Im Feststadel erwarten Sie Gaumenfreuden auf bekannte und geschätzte Art des �
 Ein barrierefreier Eingang und rollstuhlgerechte Toiletten sind selbstverständlich vorhanden.
 
 </mini-container>
-
-
-<b-container>
-
-![Alt Tag](/images/lammwirt-stadel.jpeg)
-
-</b-container>

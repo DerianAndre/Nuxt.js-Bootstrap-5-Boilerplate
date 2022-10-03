@@ -24,4 +24,5 @@ fields:
   label: Meta
 pages:
 - content/essen.md
+- content/feiern.md
 - content/schlafen.md
