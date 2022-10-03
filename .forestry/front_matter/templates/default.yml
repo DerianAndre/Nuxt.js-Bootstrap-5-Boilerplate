@@ -12,6 +12,18 @@ fields:
   config:
     required: false
   label: Emotionaler Titel
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Beschreibung
+  description: Eine Meta Description (auch Meta Beschreibung genannt) ist ein <strong>HTML-Tag,
+    das in ungefähr 160 Zeichen in Suchergebnissen von Suchmaschinen den Inhalt der
+    jeweiligen Webseite zusammengefasst anzeigt</strong>.
 - name: cover
   type: file
   config:
