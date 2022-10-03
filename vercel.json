@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/index.php/kontakt",
+      "destination": "/",
+      "statusCode": 301
+    }
+  ]
+}
