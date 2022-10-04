@@ -1,5 +1,5 @@
 <template>
-  <header class="mb-5">
+  <header class="mb-5" style="overflow-x: hidden;">
     <b-row no-gutters>
       <b-col
         md="6"
