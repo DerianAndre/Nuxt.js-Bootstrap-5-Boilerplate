@@ -21,6 +21,13 @@
         <p>Geschäftsführer: Roman Mattheis</p>
         <p>&nbsp;</p>
         <p>
+          <strong>Bilder von:</strong><br />
+          Andrea Kampmann<br />
+          Jap Fotografie<br />
+          Jascha Pansch<br />
+          Piet Mall
+        </p>
+        <p>
           <strong
             >Webdesign by
             <a href="https://www.allesdigital.io" target="_blank"
