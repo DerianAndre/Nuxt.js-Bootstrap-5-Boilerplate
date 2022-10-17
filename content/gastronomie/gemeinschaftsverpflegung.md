@@ -15,6 +15,8 @@ card:
 - Test
 menu: "/uploads/speisenplan_kw_20-_21-05-2021.pdf"
 menus:
+- label: Kalenderwoche 48 bis 04.12.2022
+  menu: "/images/speisenplan-kw-48-04-12-2022.pdf"
 - label: Kalenderwoche 47 bis 27.11.2022
   menu: "/images/speisenplan-kw-47-27-11-2022.pdf"
 - label: Kalenderwoche 46 bis 20.11.2022
