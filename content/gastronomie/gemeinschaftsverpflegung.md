@@ -15,16 +15,16 @@ card:
 - Test
 menu: "/uploads/speisenplan_kw_20-_21-05-2021.pdf"
 menus:
+- label: Kalenderwoche 46 bis 20.11.2022
+  menu: "/images/speisenplan-kw-46-20-11-2022.pdf"
+- label: Kalenderwoche 45 bis 13.11.2022
+  menu: "/images/speisenplan-kw-45-13-11-2022.pdf"
 - label: Kalenderwoche 44 bis 05.11.2022
   menu: "/images/speisenplan-kw-44-05-11-2022.pdf"
 - label: Kalenderwoche 43 bis 29.10.2022
   menu: "/images/speisenplan-kw-43-29-10-2022.pdf"
 - label: Kalenderwoche 42 bis 22.10.2022
   menu: "/images/speisenplan-kw-42-22-10-2022.pdf"
-- label: Kalenderwoche 41 bis 15.10.2022
-  menu: "/images/speisenplan-kw-41-15-10-2022.pdf"
-- label: Kalenderwoche40 bis 08.10.2022
-  menu: "/images/speisenplan-kw-40-08-10-2022.pdf"
 headline: ''
 image: ''
 location: ''
