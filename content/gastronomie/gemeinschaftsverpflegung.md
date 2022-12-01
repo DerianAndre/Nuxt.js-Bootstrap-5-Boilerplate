@@ -15,6 +15,8 @@ card:
 - Test
 menu: "/uploads/speisenplan_kw_20-_21-05-2021.pdf"
 menus:
+- label: Kalenderwoche 1 bis 06.01.2023
+  menu: "/images/kw01-07-01-23.pdf"
 - label: Kalenderwoche 51 bis 24.12.2022
   menu: "/images/speisenplan-kw-51-24-12-2022.pdf"
 - label: Kalenderwoche 50 bis 17.12.2022
