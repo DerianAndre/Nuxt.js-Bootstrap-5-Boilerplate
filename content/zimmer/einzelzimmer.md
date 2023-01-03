@@ -1,5 +1,5 @@
 ---
-price: ab 55,00 €/Nacht
+price: ab 56,00 €/Nacht
 title: Doppelzimmer zur Einzelnutzung
 icon: "/images/img_6265.jpg"
 description: Unsere Doppelzimmer können auch als Doppelzimmer zur Einzelnutzung gebucht
