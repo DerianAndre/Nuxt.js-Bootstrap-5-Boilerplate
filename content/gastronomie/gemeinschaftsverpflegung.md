@@ -29,7 +29,7 @@ menus:
   menu: "/images/kw03-21-01-23.pdf"
 - label: Kalenderwoche 2 bis 14.01.2023
   menu: "/images/kw02-14-01-23.pdf"
-headline: ''
+headline: lecker, regional, frisch
 image: ''
 location: ''
 
