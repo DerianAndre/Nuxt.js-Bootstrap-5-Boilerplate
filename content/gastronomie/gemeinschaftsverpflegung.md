@@ -15,6 +15,10 @@ card:
 - Test
 menu: "/uploads/speisenplan_kw_20-_21-05-2021.pdf"
 menus:
+- label: Kalenderwoche 8 bis 25.02.2023
+  menu: "/images/kw08-25-02-23.pdf"
+- label: Kalenderwoche 7 bis 18.02.2023
+  menu: "/images/kw07-18-02-23.pdf"
 - label: Kalenderwoche 6 bis 11.02.2023
   menu: "/images/kw06-11-02-23.pdf"
 - label: Kalenderwoche 5 bis 04.02.2023
