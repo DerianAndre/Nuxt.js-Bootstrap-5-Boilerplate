@@ -15,22 +15,16 @@ card:
 - Test
 menu: "/uploads/speisenplan_kw_20-_21-05-2021.pdf"
 menus:
+- label: Kalenderwoche 6 bis 11.02.2023
+  menu: "/images/kw06-11-02-23.pdf"
+- label: Kalenderwoche 5 bis 04.02.2023
+  menu: "/images/kw05-06-02-23.pdf"
 - label: Kalenderwoche 4 bis 29.01.2023
   menu: "/images/kw04-28-01-23.pdf"
 - label: Kalenderwoche 3 bis 22.01.2023
   menu: "/images/kw03-21-01-23.pdf"
 - label: Kalenderwoche 2 bis 14.01.2023
   menu: "/images/kw02-14-01-23.pdf"
-- label: Kalenderwoche 1 bis 06.01.2023
-  menu: "/images/kw01-07-01-23.pdf"
-- label: Kalenderwoche 51 bis 24.12.2022
-  menu: "/images/speisenplan-kw-51-24-12-2022.pdf"
-- label: Kalenderwoche 50 bis 17.12.2022
-  menu: "/images/speisenplan-kw-50-17-12-2022.pdf"
-- label: Kalenderwoche 49 bis 11.12.2022
-  menu: "/images/speisenplan-kw-49-11-12-2022.pdf"
-- label: Kalenderwoche 48 bis 04.12.2022
-  menu: "/images/speisenplan-kw-48-04-12-2022.pdf"
 headline: ''
 image: ''
 location: ''
