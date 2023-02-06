@@ -25,14 +25,6 @@ menus:
   menu: "/images/kw07-18-02-23.pdf"
 - label: Kalenderwoche 6 bis 11.02.2023
   menu: "/images/kw06-11-02-23.pdf"
-- label: Kalenderwoche 5 bis 04.02.2023
-  menu: "/images/kw05-06-02-23.pdf"
-- label: Kalenderwoche 4 bis 29.01.2023
-  menu: "/images/kw04-28-01-23.pdf"
-- label: Kalenderwoche 3 bis 22.01.2023
-  menu: "/images/kw03-21-01-23.pdf"
-- label: Kalenderwoche 2 bis 14.01.2023
-  menu: "/images/kw02-14-01-23.pdf"
 headline: lecker, regional, frisch
 image: ''
 location: ''
