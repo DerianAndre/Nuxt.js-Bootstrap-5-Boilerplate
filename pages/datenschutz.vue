@@ -526,26 +526,14 @@
   </main>
 </template>
 <script>
+import meta from '~/mixins/meta.js';
 export default {
+  mixins: [meta],
   data() {
     return {
       page: {
         title: "Datenschutzerklärung",
       },
-    };
-  },
-  head() {
-    return {
-      title: this.page.title,
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: this.page.meta_description
-            ? this.page.meta_description
-            : null,
-        },
-      ],
     };
   },
 };

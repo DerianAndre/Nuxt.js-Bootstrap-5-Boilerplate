@@ -76,21 +76,9 @@
   </main>
 </template>
 <script>
+import meta from '~/mixins/meta.js';
 export default {
-  head() {
-    return {
-      title: this.page.meta_title,
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: this.page.meta_description
-            ? this.page.meta_description
-            : null,
-        },
-      ],
-    };
-  },
+  mixins: [meta],
   async asyncData({ $content, params }) {
     try {
       const page = await $content("essen").fetch();
