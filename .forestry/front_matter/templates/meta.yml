@@ -19,3 +19,8 @@ fields:
   description: Eine Meta Description (auch Meta Beschreibung genannt) ist ein <strong>HTML-Tag,
     das in ungefähr 160 Zeichen in Suchergebnissen von Suchmaschinen den Inhalt der
     jeweiligen Webseite zusammengefasst anzeigt</strong>.
+- name: meta_image
+  type: file
+  config:
+    maxSize: 64
+  label: Meta Image
