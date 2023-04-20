@@ -5,8 +5,9 @@ cover: ''
 description: ''
 meta_title: ''
 meta_description: ''
-
+_template: default
 ---
+
 <mini-container>
 
 <h2 class="subtitle">Feiern</h2>

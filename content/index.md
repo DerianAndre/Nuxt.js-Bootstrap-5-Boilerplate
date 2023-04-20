@@ -5,14 +5,16 @@ description: ''
 cover: ''
 references: []
 images:
-- "/images/zapfanlage.jpeg"
-- "/images/tisch.jpeg"
+  - /images/zapfanlage.jpeg
+  - /images/tisch.jpeg
 meta_title: Willkommen auf der Schwäbischen Alb
-meta_description: Willkommen auf der Schwäbischen Alb im Gasthaus zum Lamm und im
-  Lammwirt Stadel. Moderner, der Nachhaltigkeit aufgeschlossener Gastronomie- und
+meta_description: >-
+  Willkommen auf der Schwäbischen Alb im Gasthaus zum Lamm und im Lammwirt
+  Stadel. Moderner, der Nachhaltigkeit aufgeschlossener Gastronomie- und
   Beherbergungsbetrieb in fünfter Generation
-
+_template: home
 ---
+
 <mini-container>
 
 <h2 class="subtitle">Gasthaus Lamm</h2>
