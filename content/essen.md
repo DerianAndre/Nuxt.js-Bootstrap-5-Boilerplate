@@ -6,5 +6,6 @@ references: []
 description: ''
 meta_title: ''
 meta_description: ''
+meta_image: "/images/aneta-voborilova-e0eodfsj2cw-unsplash.jpg"
 
 ---
